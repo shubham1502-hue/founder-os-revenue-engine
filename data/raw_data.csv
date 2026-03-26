@@ -1,0 +1,1001 @@
+lead_id,source,created_at,demo_booked,demo_attended,converted,revenue,sales_rep
+1,Organic,2025-01-08,0,0,0,0,Neha
+2,Google Ads,2025-01-02,1,1,0,0,Karan
+3,Organic,2025-01-30,0,0,0,0,Neha
+4,Referral,2025-02-27,0,0,0,0,Neha
+5,Facebook Ads,2025-01-15,0,0,0,0,Riya
+6,Facebook Ads,2025-01-25,1,1,0,0,Neha
+7,Referral,2025-01-24,0,0,0,0,Karan
+8,Referral,2025-01-29,1,1,0,0,Aman
+9,Google Ads,2025-02-03,0,0,0,0,Neha
+10,Organic,2025-02-12,0,0,0,0,Aman
+11,Google Ads,2025-01-21,0,0,0,0,Aman
+12,Referral,2025-01-31,1,0,0,0,Riya
+13,Facebook Ads,2025-01-14,0,0,0,0,Neha
+14,Facebook Ads,2025-02-24,1,0,0,0,Neha
+15,Facebook Ads,2025-01-05,0,0,0,0,Aman
+16,Organic,2025-02-03,0,0,0,0,Neha
+17,Google Ads,2025-01-26,1,1,0,0,Aman
+18,Organic,2025-02-28,1,1,0,0,Aman
+19,Referral,2025-02-06,1,0,0,0,Aman
+20,Organic,2025-02-03,0,0,0,0,Neha
+21,Organic,2025-02-10,1,1,1,5000,Aman
+22,Google Ads,2025-01-01,0,0,0,0,Riya
+23,Referral,2025-02-14,0,0,0,0,Aman
+24,Facebook Ads,2025-01-11,1,0,0,0,Neha
+25,Referral,2025-01-20,0,0,0,0,Riya
+26,Organic,2025-01-02,1,0,0,0,Neha
+27,Referral,2025-02-03,1,0,0,0,Aman
+28,Google Ads,2025-01-21,1,0,0,0,Aman
+29,Facebook Ads,2025-02-24,1,1,0,0,Neha
+30,Organic,2025-01-11,1,1,1,4000,Aman
+31,Facebook Ads,2025-01-28,1,1,1,6000,Karan
+32,Organic,2025-01-18,0,0,0,0,Neha
+33,Facebook Ads,2025-02-17,0,0,0,0,Karan
+34,Organic,2025-02-10,0,0,0,0,Aman
+35,Organic,2025-01-02,0,0,0,0,Riya
+36,Google Ads,2025-01-14,0,0,0,0,Riya
+37,Referral,2025-01-31,0,0,0,0,Neha
+38,Organic,2025-02-17,1,0,0,0,Riya
+39,Referral,2025-01-22,0,0,0,0,Riya
+40,Referral,2025-02-24,1,0,0,0,Karan
+41,Organic,2025-01-31,1,0,0,0,Riya
+42,Referral,2025-02-23,1,1,0,0,Karan
+43,Organic,2025-01-11,0,0,0,0,Riya
+44,Facebook Ads,2025-01-21,1,1,0,0,Neha
+45,Facebook Ads,2025-01-03,1,0,0,0,Neha
+46,Facebook Ads,2025-01-15,0,0,0,0,Riya
+47,Organic,2025-02-20,0,0,0,0,Karan
+48,Facebook Ads,2025-02-03,1,1,0,0,Aman
+49,Organic,2025-02-25,0,0,0,0,Neha
+50,Facebook Ads,2025-02-23,0,0,0,0,Riya
+51,Facebook Ads,2025-01-13,0,0,0,0,Karan
+52,Facebook Ads,2025-01-15,1,1,1,6000,Aman
+53,Organic,2025-02-18,1,0,0,0,Aman
+54,Referral,2025-01-25,1,1,0,0,Karan
+55,Referral,2025-02-05,1,0,0,0,Riya
+56,Facebook Ads,2025-01-23,1,0,0,0,Riya
+57,Referral,2025-02-12,0,0,0,0,Karan
+58,Organic,2025-01-15,0,0,0,0,Riya
+59,Referral,2025-02-01,0,0,0,0,Karan
+60,Organic,2025-01-08,1,0,0,0,Karan
+61,Google Ads,2025-02-23,1,1,0,0,Karan
+62,Referral,2025-02-21,1,1,0,0,Karan
+63,Organic,2025-02-22,0,0,0,0,Riya
+64,Facebook Ads,2025-02-04,0,0,0,0,Riya
+65,Facebook Ads,2025-02-16,0,0,0,0,Riya
+66,Referral,2025-01-04,1,1,0,0,Riya
+67,Organic,2025-02-18,1,1,0,0,Neha
+68,Organic,2025-01-20,1,1,1,6000,Aman
+69,Organic,2025-02-03,1,0,0,0,Neha
+70,Organic,2025-01-13,0,0,0,0,Riya
+71,Organic,2025-01-18,0,0,0,0,Karan
+72,Organic,2025-02-26,1,1,1,6000,Karan
+73,Referral,2025-01-01,0,0,0,0,Neha
+74,Google Ads,2025-01-29,1,0,0,0,Aman
+75,Facebook Ads,2025-02-10,0,0,0,0,Riya
+76,Facebook Ads,2025-02-04,0,0,0,0,Karan
+77,Referral,2025-03-02,0,0,0,0,Riya
+78,Organic,2025-01-12,1,0,0,0,Neha
+79,Facebook Ads,2025-02-20,1,1,0,0,Karan
+80,Google Ads,2025-02-28,1,1,0,0,Karan
+81,Facebook Ads,2025-02-21,1,0,0,0,Karan
+82,Referral,2025-01-08,0,0,0,0,Aman
+83,Organic,2025-02-24,0,0,0,0,Aman
+84,Facebook Ads,2025-02-20,1,1,0,0,Karan
+85,Referral,2025-03-01,0,0,0,0,Riya
+86,Facebook Ads,2025-01-09,1,0,0,0,Riya
+87,Google Ads,2025-02-16,0,0,0,0,Karan
+88,Google Ads,2025-01-16,1,1,0,0,Karan
+89,Organic,2025-02-26,1,1,0,0,Karan
+90,Google Ads,2025-03-01,1,0,0,0,Aman
+91,Referral,2025-01-21,1,1,0,0,Riya
+92,Referral,2025-01-20,0,0,0,0,Riya
+93,Google Ads,2025-02-03,1,0,0,0,Neha
+94,Referral,2025-02-19,0,0,0,0,Riya
+95,Google Ads,2025-01-12,0,0,0,0,Riya
+96,Referral,2025-02-14,1,1,0,0,Aman
+97,Organic,2025-01-23,1,0,0,0,Karan
+98,Facebook Ads,2025-01-27,1,0,0,0,Riya
+99,Facebook Ads,2025-02-21,1,0,0,0,Riya
+100,Google Ads,2025-01-17,1,0,0,0,Riya
+101,Referral,2025-02-15,0,0,0,0,Neha
+102,Google Ads,2025-01-18,0,0,0,0,Neha
+103,Google Ads,2025-01-01,1,1,0,0,Aman
+104,Referral,2025-02-19,1,1,0,0,Karan
+105,Organic,2025-02-20,1,0,0,0,Neha
+106,Organic,2025-02-04,0,0,0,0,Aman
+107,Google Ads,2025-01-08,1,1,0,0,Karan
+108,Google Ads,2025-01-16,0,0,0,0,Riya
+109,Organic,2025-02-11,0,0,0,0,Aman
+110,Facebook Ads,2025-01-02,1,1,1,5000,Aman
+111,Organic,2025-01-05,1,1,0,0,Aman
+112,Facebook Ads,2025-01-30,0,0,0,0,Riya
+113,Organic,2025-02-27,1,1,0,0,Neha
+114,Organic,2025-02-06,0,0,0,0,Karan
+115,Referral,2025-01-30,1,0,0,0,Neha
+116,Facebook Ads,2025-01-25,0,0,0,0,Aman
+117,Google Ads,2025-01-02,1,1,0,0,Aman
+118,Google Ads,2025-02-21,0,0,0,0,Karan
+119,Google Ads,2025-01-06,1,0,0,0,Neha
+120,Organic,2025-02-10,0,0,0,0,Aman
+121,Google Ads,2025-01-09,1,1,1,4000,Aman
+122,Organic,2025-02-18,1,1,0,0,Karan
+123,Facebook Ads,2025-03-01,0,0,0,0,Aman
+124,Referral,2025-01-09,0,0,0,0,Neha
+125,Organic,2025-02-08,0,0,0,0,Aman
+126,Google Ads,2025-01-26,1,0,0,0,Karan
+127,Organic,2025-02-09,1,1,0,0,Aman
+128,Referral,2025-01-16,1,1,0,0,Riya
+129,Organic,2025-02-26,0,0,0,0,Karan
+130,Google Ads,2025-02-24,1,0,0,0,Riya
+131,Organic,2025-01-31,0,0,0,0,Neha
+132,Referral,2025-01-21,1,0,0,0,Karan
+133,Referral,2025-01-29,1,1,1,6000,Riya
+134,Organic,2025-01-03,0,0,0,0,Neha
+135,Referral,2025-01-03,0,0,0,0,Neha
+136,Referral,2025-01-26,1,0,0,0,Aman
+137,Facebook Ads,2025-01-22,1,1,1,4000,Aman
+138,Facebook Ads,2025-02-05,0,0,0,0,Aman
+139,Google Ads,2025-01-04,0,0,0,0,Karan
+140,Referral,2025-01-17,1,0,0,0,Neha
+141,Referral,2025-01-02,0,0,0,0,Riya
+142,Referral,2025-01-19,1,1,0,0,Riya
+143,Referral,2025-01-28,1,0,0,0,Riya
+144,Facebook Ads,2025-02-05,1,1,0,0,Neha
+145,Organic,2025-01-09,1,1,0,0,Riya
+146,Google Ads,2025-01-07,1,1,0,0,Neha
+147,Facebook Ads,2025-02-21,0,0,0,0,Neha
+148,Google Ads,2025-02-20,1,1,1,5000,Riya
+149,Referral,2025-02-12,1,1,0,0,Riya
+150,Google Ads,2025-02-28,1,1,0,0,Aman
+151,Organic,2025-01-23,1,1,0,0,Neha
+152,Google Ads,2025-02-04,0,0,0,0,Karan
+153,Facebook Ads,2025-02-13,0,0,0,0,Neha
+154,Google Ads,2025-01-22,1,0,0,0,Aman
+155,Google Ads,2025-01-21,1,1,0,0,Karan
+156,Facebook Ads,2025-01-09,1,0,0,0,Riya
+157,Google Ads,2025-01-23,0,0,0,0,Riya
+158,Facebook Ads,2025-02-24,1,0,0,0,Neha
+159,Google Ads,2025-01-04,0,0,0,0,Riya
+160,Google Ads,2025-01-06,1,1,0,0,Aman
+161,Organic,2025-02-11,1,0,0,0,Riya
+162,Facebook Ads,2025-01-15,0,0,0,0,Neha
+163,Organic,2025-01-28,1,1,0,0,Neha
+164,Organic,2025-02-07,1,1,0,0,Karan
+165,Facebook Ads,2025-01-16,0,0,0,0,Neha
+166,Organic,2025-02-16,1,0,0,0,Aman
+167,Organic,2025-02-25,1,0,0,0,Riya
+168,Referral,2025-01-09,0,0,0,0,Riya
+169,Google Ads,2025-02-18,1,1,0,0,Aman
+170,Facebook Ads,2025-01-29,1,0,0,0,Karan
+171,Google Ads,2025-01-21,0,0,0,0,Riya
+172,Referral,2025-02-25,0,0,0,0,Aman
+173,Google Ads,2025-01-08,1,1,0,0,Neha
+174,Organic,2025-01-21,0,0,0,0,Neha
+175,Referral,2025-01-19,1,1,0,0,Neha
+176,Referral,2025-02-16,1,0,0,0,Neha
+177,Organic,2025-01-10,0,0,0,0,Neha
+178,Google Ads,2025-02-23,0,0,0,0,Aman
+179,Google Ads,2025-02-28,1,0,0,0,Karan
+180,Facebook Ads,2025-01-01,0,0,0,0,Neha
+181,Organic,2025-02-04,0,0,0,0,Karan
+182,Google Ads,2025-01-16,0,0,0,0,Riya
+183,Facebook Ads,2025-01-29,1,1,0,0,Neha
+184,Google Ads,2025-01-01,0,0,0,0,Aman
+185,Organic,2025-02-15,1,0,0,0,Riya
+186,Referral,2025-02-05,0,0,0,0,Karan
+187,Organic,2025-01-23,1,0,0,0,Neha
+188,Facebook Ads,2025-02-28,1,1,0,0,Aman
+189,Referral,2025-01-25,0,0,0,0,Riya
+190,Organic,2025-02-02,1,1,1,6000,Riya
+191,Organic,2025-01-03,1,0,0,0,Karan
+192,Referral,2025-02-13,0,0,0,0,Neha
+193,Facebook Ads,2025-01-04,1,0,0,0,Neha
+194,Google Ads,2025-01-17,1,1,0,0,Karan
+195,Google Ads,2025-02-20,0,0,0,0,Riya
+196,Referral,2025-02-12,1,0,0,0,Neha
+197,Organic,2025-02-17,1,1,0,0,Aman
+198,Google Ads,2025-01-25,1,1,0,0,Neha
+199,Organic,2025-02-08,0,0,0,0,Neha
+200,Referral,2025-02-23,0,0,0,0,Neha
+201,Referral,2025-01-28,0,0,0,0,Aman
+202,Google Ads,2025-01-05,0,0,0,0,Neha
+203,Organic,2025-01-06,1,0,0,0,Aman
+204,Google Ads,2025-02-08,0,0,0,0,Karan
+205,Organic,2025-01-14,1,0,0,0,Neha
+206,Organic,2025-02-24,1,0,0,0,Neha
+207,Facebook Ads,2025-01-15,0,0,0,0,Karan
+208,Organic,2025-02-15,1,1,1,4000,Neha
+209,Facebook Ads,2025-01-24,1,1,0,0,Neha
+210,Organic,2025-01-06,0,0,0,0,Aman
+211,Organic,2025-02-20,1,1,1,5000,Aman
+212,Organic,2025-02-01,1,0,0,0,Karan
+213,Google Ads,2025-02-20,1,0,0,0,Karan
+214,Organic,2025-01-02,1,1,0,0,Karan
+215,Referral,2025-02-23,1,1,0,0,Karan
+216,Facebook Ads,2025-02-28,1,1,1,4000,Aman
+217,Organic,2025-01-31,0,0,0,0,Aman
+218,Facebook Ads,2025-02-05,1,0,0,0,Aman
+219,Facebook Ads,2025-02-21,0,0,0,0,Neha
+220,Referral,2025-02-08,1,0,0,0,Riya
+221,Facebook Ads,2025-02-03,0,0,0,0,Riya
+222,Facebook Ads,2025-02-04,1,1,0,0,Aman
+223,Facebook Ads,2025-02-06,1,0,0,0,Aman
+224,Organic,2025-01-31,0,0,0,0,Neha
+225,Facebook Ads,2025-02-06,0,0,0,0,Aman
+226,Referral,2025-02-19,1,1,0,0,Riya
+227,Facebook Ads,2025-02-21,1,0,0,0,Neha
+228,Organic,2025-01-08,1,0,0,0,Karan
+229,Google Ads,2025-02-24,1,0,0,0,Riya
+230,Organic,2025-02-25,1,0,0,0,Karan
+231,Facebook Ads,2025-01-02,0,0,0,0,Neha
+232,Facebook Ads,2025-01-24,0,0,0,0,Riya
+233,Facebook Ads,2025-02-14,1,1,0,0,Karan
+234,Google Ads,2025-02-13,0,0,0,0,Riya
+235,Facebook Ads,2025-02-10,1,0,0,0,Riya
+236,Referral,2025-02-19,1,1,0,0,Aman
+237,Referral,2025-01-03,0,0,0,0,Aman
+238,Referral,2025-02-25,1,0,0,0,Karan
+239,Organic,2025-03-02,0,0,0,0,Aman
+240,Facebook Ads,2025-01-03,1,1,1,5000,Neha
+241,Organic,2025-01-31,1,0,0,0,Neha
+242,Google Ads,2025-01-08,0,0,0,0,Karan
+243,Facebook Ads,2025-01-13,1,1,0,0,Karan
+244,Referral,2025-01-01,1,0,0,0,Karan
+245,Google Ads,2025-02-24,1,0,0,0,Aman
+246,Google Ads,2025-01-26,1,0,0,0,Aman
+247,Facebook Ads,2025-02-27,0,0,0,0,Karan
+248,Facebook Ads,2025-01-18,0,0,0,0,Karan
+249,Facebook Ads,2025-02-09,1,1,0,0,Aman
+250,Google Ads,2025-01-25,1,0,0,0,Riya
+251,Facebook Ads,2025-02-19,0,0,0,0,Riya
+252,Organic,2025-01-30,1,0,0,0,Neha
+253,Facebook Ads,2025-01-17,1,0,0,0,Riya
+254,Facebook Ads,2025-01-29,1,0,0,0,Neha
+255,Referral,2025-01-11,1,1,1,5000,Aman
+256,Facebook Ads,2025-01-11,0,0,0,0,Riya
+257,Organic,2025-02-25,1,1,0,0,Karan
+258,Referral,2025-01-27,1,1,0,0,Aman
+259,Referral,2025-01-12,1,1,1,5000,Riya
+260,Google Ads,2025-01-11,0,0,0,0,Karan
+261,Referral,2025-01-11,0,0,0,0,Riya
+262,Google Ads,2025-01-03,1,1,0,0,Neha
+263,Google Ads,2025-03-02,1,0,0,0,Karan
+264,Google Ads,2025-03-02,0,0,0,0,Aman
+265,Facebook Ads,2025-02-11,1,0,0,0,Neha
+266,Google Ads,2025-02-20,1,0,0,0,Neha
+267,Facebook Ads,2025-01-02,1,1,0,0,Neha
+268,Referral,2025-02-19,1,0,0,0,Karan
+269,Referral,2025-01-06,1,1,0,0,Karan
+270,Google Ads,2025-02-15,1,1,1,4000,Riya
+271,Referral,2025-01-15,1,1,0,0,Karan
+272,Referral,2025-02-12,1,1,0,0,Karan
+273,Organic,2025-01-28,0,0,0,0,Riya
+274,Referral,2025-03-01,0,0,0,0,Neha
+275,Referral,2025-02-28,1,1,0,0,Riya
+276,Google Ads,2025-01-19,1,0,0,0,Karan
+277,Referral,2025-02-11,1,1,1,4000,Aman
+278,Google Ads,2025-01-10,1,0,0,0,Aman
+279,Google Ads,2025-01-20,0,0,0,0,Neha
+280,Google Ads,2025-01-03,0,0,0,0,Neha
+281,Google Ads,2025-02-19,1,1,1,4000,Aman
+282,Facebook Ads,2025-01-09,1,1,0,0,Karan
+283,Referral,2025-03-01,1,1,0,0,Aman
+284,Facebook Ads,2025-01-09,1,0,0,0,Riya
+285,Organic,2025-01-11,1,1,0,0,Neha
+286,Referral,2025-01-27,1,1,0,0,Aman
+287,Referral,2025-02-20,0,0,0,0,Neha
+288,Facebook Ads,2025-02-14,1,1,0,0,Riya
+289,Facebook Ads,2025-01-15,1,1,0,0,Karan
+290,Facebook Ads,2025-02-20,1,1,0,0,Aman
+291,Facebook Ads,2025-01-02,0,0,0,0,Riya
+292,Facebook Ads,2025-02-04,0,0,0,0,Aman
+293,Referral,2025-02-20,1,1,0,0,Neha
+294,Google Ads,2025-01-05,0,0,0,0,Neha
+295,Referral,2025-02-20,0,0,0,0,Karan
+296,Organic,2025-02-04,0,0,0,0,Riya
+297,Organic,2025-02-11,0,0,0,0,Riya
+298,Referral,2025-01-12,1,0,0,0,Aman
+299,Referral,2025-02-04,1,1,0,0,Neha
+300,Referral,2025-01-29,1,1,0,0,Riya
+301,Facebook Ads,2025-02-27,1,1,1,4000,Karan
+302,Facebook Ads,2025-02-24,0,0,0,0,Riya
+303,Google Ads,2025-01-13,1,0,0,0,Karan
+304,Referral,2025-02-26,0,0,0,0,Karan
+305,Organic,2025-01-18,1,1,0,0,Neha
+306,Referral,2025-02-02,0,0,0,0,Karan
+307,Google Ads,2025-02-22,1,0,0,0,Neha
+308,Organic,2025-02-03,0,0,0,0,Aman
+309,Facebook Ads,2025-02-22,0,0,0,0,Neha
+310,Facebook Ads,2025-02-08,0,0,0,0,Riya
+311,Referral,2025-01-21,0,0,0,0,Neha
+312,Referral,2025-02-24,0,0,0,0,Aman
+313,Facebook Ads,2025-01-17,1,0,0,0,Karan
+314,Google Ads,2025-02-11,0,0,0,0,Karan
+315,Facebook Ads,2025-02-08,1,0,0,0,Neha
+316,Facebook Ads,2025-01-29,1,0,0,0,Aman
+317,Google Ads,2025-02-13,0,0,0,0,Karan
+318,Organic,2025-01-11,0,0,0,0,Aman
+319,Referral,2025-01-26,0,0,0,0,Neha
+320,Referral,2025-02-10,0,0,0,0,Riya
+321,Facebook Ads,2025-02-28,0,0,0,0,Karan
+322,Organic,2025-01-02,0,0,0,0,Aman
+323,Organic,2025-03-02,0,0,0,0,Riya
+324,Organic,2025-02-01,1,0,0,0,Neha
+325,Organic,2025-01-30,0,0,0,0,Karan
+326,Organic,2025-01-12,1,1,0,0,Karan
+327,Organic,2025-01-01,1,1,0,0,Aman
+328,Organic,2025-01-27,1,1,0,0,Riya
+329,Facebook Ads,2025-01-31,0,0,0,0,Neha
+330,Google Ads,2025-02-09,1,1,0,0,Aman
+331,Facebook Ads,2025-02-17,0,0,0,0,Riya
+332,Referral,2025-01-21,0,0,0,0,Riya
+333,Google Ads,2025-02-13,1,1,0,0,Neha
+334,Organic,2025-01-10,1,1,0,0,Aman
+335,Google Ads,2025-01-16,0,0,0,0,Aman
+336,Google Ads,2025-02-24,1,1,0,0,Neha
+337,Referral,2025-02-10,1,0,0,0,Riya
+338,Facebook Ads,2025-02-10,1,1,0,0,Riya
+339,Facebook Ads,2025-02-25,0,0,0,0,Karan
+340,Referral,2025-01-27,0,0,0,0,Aman
+341,Organic,2025-02-27,0,0,0,0,Karan
+342,Google Ads,2025-01-17,0,0,0,0,Karan
+343,Referral,2025-02-27,0,0,0,0,Riya
+344,Organic,2025-01-18,0,0,0,0,Karan
+345,Organic,2025-01-08,0,0,0,0,Aman
+346,Facebook Ads,2025-02-15,1,1,0,0,Karan
+347,Google Ads,2025-01-29,1,0,0,0,Aman
+348,Referral,2025-01-10,0,0,0,0,Neha
+349,Organic,2025-01-12,1,1,0,0,Neha
+350,Organic,2025-01-15,1,0,0,0,Aman
+351,Referral,2025-01-15,0,0,0,0,Aman
+352,Referral,2025-02-24,0,0,0,0,Aman
+353,Organic,2025-01-14,1,1,0,0,Karan
+354,Google Ads,2025-01-16,1,1,0,0,Karan
+355,Facebook Ads,2025-02-22,0,0,0,0,Neha
+356,Google Ads,2025-02-21,0,0,0,0,Aman
+357,Google Ads,2025-01-05,0,0,0,0,Karan
+358,Organic,2025-02-23,0,0,0,0,Aman
+359,Organic,2025-02-17,0,0,0,0,Riya
+360,Facebook Ads,2025-01-09,0,0,0,0,Neha
+361,Facebook Ads,2025-02-17,0,0,0,0,Aman
+362,Organic,2025-02-26,1,0,0,0,Aman
+363,Referral,2025-01-15,1,0,0,0,Aman
+364,Organic,2025-02-28,1,0,0,0,Neha
+365,Referral,2025-02-18,0,0,0,0,Riya
+366,Facebook Ads,2025-02-17,1,1,1,6000,Neha
+367,Referral,2025-02-18,0,0,0,0,Riya
+368,Organic,2025-01-25,0,0,0,0,Riya
+369,Organic,2025-01-28,1,1,0,0,Neha
+370,Referral,2025-01-19,1,0,0,0,Riya
+371,Referral,2025-01-11,1,0,0,0,Karan
+372,Google Ads,2025-01-16,0,0,0,0,Karan
+373,Referral,2025-02-22,1,1,0,0,Riya
+374,Organic,2025-01-18,0,0,0,0,Aman
+375,Google Ads,2025-01-24,1,0,0,0,Karan
+376,Referral,2025-01-13,1,0,0,0,Neha
+377,Referral,2025-02-09,1,1,0,0,Aman
+378,Google Ads,2025-01-16,0,0,0,0,Neha
+379,Organic,2025-01-24,0,0,0,0,Aman
+380,Referral,2025-01-09,0,0,0,0,Riya
+381,Google Ads,2025-01-05,1,0,0,0,Aman
+382,Facebook Ads,2025-02-08,1,0,0,0,Aman
+383,Referral,2025-02-23,1,1,0,0,Riya
+384,Facebook Ads,2025-01-14,1,0,0,0,Aman
+385,Referral,2025-01-25,0,0,0,0,Neha
+386,Organic,2025-02-26,1,1,1,4000,Karan
+387,Organic,2025-01-09,0,0,0,0,Riya
+388,Google Ads,2025-01-01,1,1,0,0,Riya
+389,Referral,2025-01-28,0,0,0,0,Riya
+390,Referral,2025-02-21,1,1,1,5000,Aman
+391,Referral,2025-01-18,0,0,0,0,Aman
+392,Facebook Ads,2025-01-19,1,0,0,0,Aman
+393,Referral,2025-02-09,0,0,0,0,Aman
+394,Facebook Ads,2025-02-07,0,0,0,0,Aman
+395,Organic,2025-02-22,1,1,0,0,Aman
+396,Facebook Ads,2025-01-24,0,0,0,0,Riya
+397,Organic,2025-01-02,1,0,0,0,Neha
+398,Facebook Ads,2025-01-11,1,0,0,0,Aman
+399,Referral,2025-02-06,0,0,0,0,Neha
+400,Referral,2025-01-08,1,0,0,0,Riya
+401,Organic,2025-02-12,1,1,0,0,Riya
+402,Organic,2025-01-03,1,0,0,0,Aman
+403,Google Ads,2025-01-11,1,1,0,0,Riya
+404,Organic,2025-02-18,0,0,0,0,Karan
+405,Google Ads,2025-01-11,1,1,0,0,Riya
+406,Organic,2025-01-06,0,0,0,0,Karan
+407,Referral,2025-02-06,1,1,0,0,Aman
+408,Referral,2025-01-09,1,1,0,0,Riya
+409,Referral,2025-01-28,0,0,0,0,Karan
+410,Google Ads,2025-01-18,0,0,0,0,Karan
+411,Referral,2025-01-28,1,0,0,0,Karan
+412,Referral,2025-02-26,1,1,1,5000,Riya
+413,Organic,2025-01-13,0,0,0,0,Aman
+414,Google Ads,2025-02-06,1,0,0,0,Aman
+415,Referral,2025-01-27,1,0,0,0,Neha
+416,Referral,2025-02-22,0,0,0,0,Neha
+417,Referral,2025-01-11,1,0,0,0,Riya
+418,Google Ads,2025-02-10,0,0,0,0,Aman
+419,Organic,2025-02-01,1,1,0,0,Neha
+420,Referral,2025-01-13,1,1,0,0,Aman
+421,Google Ads,2025-01-10,0,0,0,0,Karan
+422,Organic,2025-01-29,0,0,0,0,Neha
+423,Facebook Ads,2025-01-10,1,1,0,0,Neha
+424,Google Ads,2025-01-15,1,1,0,0,Neha
+425,Referral,2025-02-04,1,1,0,0,Aman
+426,Facebook Ads,2025-02-20,0,0,0,0,Riya
+427,Google Ads,2025-01-05,1,1,0,0,Neha
+428,Organic,2025-01-10,1,1,0,0,Aman
+429,Organic,2025-02-25,0,0,0,0,Neha
+430,Facebook Ads,2025-02-10,1,1,0,0,Karan
+431,Organic,2025-02-01,1,1,1,4000,Aman
+432,Referral,2025-02-13,1,0,0,0,Riya
+433,Organic,2025-02-08,1,1,0,0,Aman
+434,Google Ads,2025-01-07,1,1,0,0,Neha
+435,Google Ads,2025-02-24,1,0,0,0,Neha
+436,Referral,2025-02-01,0,0,0,0,Karan
+437,Organic,2025-01-29,0,0,0,0,Aman
+438,Referral,2025-01-23,1,0,0,0,Aman
+439,Facebook Ads,2025-01-03,0,0,0,0,Karan
+440,Facebook Ads,2025-02-04,0,0,0,0,Riya
+441,Google Ads,2025-01-25,1,1,0,0,Riya
+442,Referral,2025-01-28,0,0,0,0,Neha
+443,Organic,2025-01-01,1,0,0,0,Neha
+444,Google Ads,2025-02-17,0,0,0,0,Karan
+445,Referral,2025-01-02,1,0,0,0,Riya
+446,Google Ads,2025-01-28,0,0,0,0,Karan
+447,Google Ads,2025-01-05,1,0,0,0,Riya
+448,Organic,2025-01-31,1,0,0,0,Aman
+449,Facebook Ads,2025-01-17,1,1,0,0,Riya
+450,Organic,2025-02-27,1,0,0,0,Riya
+451,Referral,2025-02-08,1,0,0,0,Aman
+452,Google Ads,2025-01-18,1,0,0,0,Aman
+453,Organic,2025-01-01,1,1,0,0,Riya
+454,Referral,2025-02-18,0,0,0,0,Aman
+455,Facebook Ads,2025-03-02,1,0,0,0,Karan
+456,Referral,2025-03-01,1,0,0,0,Karan
+457,Organic,2025-01-23,0,0,0,0,Aman
+458,Referral,2025-02-19,0,0,0,0,Karan
+459,Referral,2025-02-11,1,1,0,0,Aman
+460,Facebook Ads,2025-01-29,1,0,0,0,Aman
+461,Organic,2025-02-13,1,0,0,0,Riya
+462,Google Ads,2025-01-25,1,1,0,0,Aman
+463,Google Ads,2025-02-22,0,0,0,0,Aman
+464,Facebook Ads,2025-02-20,1,1,0,0,Neha
+465,Referral,2025-02-17,0,0,0,0,Neha
+466,Organic,2025-01-28,1,0,0,0,Riya
+467,Organic,2025-02-11,0,0,0,0,Neha
+468,Google Ads,2025-01-18,0,0,0,0,Aman
+469,Organic,2025-02-20,1,1,0,0,Karan
+470,Referral,2025-02-18,0,0,0,0,Karan
+471,Organic,2025-01-02,0,0,0,0,Riya
+472,Organic,2025-01-02,1,0,0,0,Riya
+473,Organic,2025-01-01,0,0,0,0,Riya
+474,Google Ads,2025-02-14,1,0,0,0,Neha
+475,Facebook Ads,2025-02-19,1,0,0,0,Aman
+476,Referral,2025-02-15,0,0,0,0,Riya
+477,Google Ads,2025-01-01,0,0,0,0,Neha
+478,Referral,2025-01-21,1,1,1,4000,Aman
+479,Facebook Ads,2025-01-24,0,0,0,0,Riya
+480,Facebook Ads,2025-01-07,1,0,0,0,Karan
+481,Referral,2025-02-05,0,0,0,0,Neha
+482,Organic,2025-01-27,1,0,0,0,Riya
+483,Organic,2025-01-07,0,0,0,0,Karan
+484,Referral,2025-01-13,0,0,0,0,Aman
+485,Google Ads,2025-01-05,0,0,0,0,Aman
+486,Organic,2025-01-26,0,0,0,0,Riya
+487,Organic,2025-02-07,1,0,0,0,Aman
+488,Facebook Ads,2025-01-08,1,1,0,0,Riya
+489,Referral,2025-01-01,0,0,0,0,Karan
+490,Facebook Ads,2025-03-01,0,0,0,0,Aman
+491,Organic,2025-02-10,1,0,0,0,Aman
+492,Referral,2025-01-23,1,0,0,0,Neha
+493,Referral,2025-01-04,1,0,0,0,Neha
+494,Referral,2025-01-10,0,0,0,0,Riya
+495,Referral,2025-02-06,1,1,0,0,Aman
+496,Facebook Ads,2025-02-23,1,0,0,0,Riya
+497,Facebook Ads,2025-02-13,1,1,0,0,Riya
+498,Facebook Ads,2025-01-25,0,0,0,0,Riya
+499,Organic,2025-01-31,0,0,0,0,Riya
+500,Referral,2025-03-02,1,1,0,0,Aman
+501,Google Ads,2025-02-23,0,0,0,0,Karan
+502,Facebook Ads,2025-02-02,1,1,0,0,Aman
+503,Facebook Ads,2025-01-04,0,0,0,0,Riya
+504,Google Ads,2025-01-25,0,0,0,0,Aman
+505,Google Ads,2025-02-20,0,0,0,0,Riya
+506,Facebook Ads,2025-02-19,1,0,0,0,Neha
+507,Referral,2025-01-04,1,0,0,0,Neha
+508,Google Ads,2025-02-25,1,1,1,6000,Neha
+509,Facebook Ads,2025-02-20,0,0,0,0,Riya
+510,Organic,2025-01-14,0,0,0,0,Aman
+511,Organic,2025-01-04,0,0,0,0,Aman
+512,Google Ads,2025-02-05,1,1,0,0,Riya
+513,Google Ads,2025-01-12,1,1,0,0,Neha
+514,Organic,2025-02-20,1,0,0,0,Aman
+515,Referral,2025-02-05,0,0,0,0,Neha
+516,Google Ads,2025-02-08,1,0,0,0,Neha
+517,Referral,2025-02-23,0,0,0,0,Riya
+518,Facebook Ads,2025-01-21,1,0,0,0,Karan
+519,Referral,2025-01-01,1,0,0,0,Karan
+520,Referral,2025-01-06,0,0,0,0,Karan
+521,Referral,2025-01-15,0,0,0,0,Riya
+522,Referral,2025-01-18,0,0,0,0,Neha
+523,Google Ads,2025-01-05,1,0,0,0,Aman
+524,Google Ads,2025-02-04,1,0,0,0,Karan
+525,Facebook Ads,2025-02-22,1,1,0,0,Aman
+526,Organic,2025-03-02,0,0,0,0,Riya
+527,Organic,2025-02-06,0,0,0,0,Karan
+528,Referral,2025-01-09,0,0,0,0,Karan
+529,Organic,2025-02-17,1,0,0,0,Neha
+530,Organic,2025-01-15,1,1,0,0,Neha
+531,Referral,2025-01-03,1,0,0,0,Neha
+532,Organic,2025-02-12,0,0,0,0,Neha
+533,Organic,2025-01-09,1,0,0,0,Riya
+534,Facebook Ads,2025-02-16,1,0,0,0,Riya
+535,Facebook Ads,2025-02-25,0,0,0,0,Riya
+536,Google Ads,2025-01-13,1,1,0,0,Aman
+537,Google Ads,2025-02-25,0,0,0,0,Aman
+538,Referral,2025-02-28,1,0,0,0,Riya
+539,Facebook Ads,2025-01-18,0,0,0,0,Aman
+540,Referral,2025-01-06,1,0,0,0,Riya
+541,Referral,2025-01-18,1,0,0,0,Karan
+542,Referral,2025-02-01,0,0,0,0,Karan
+543,Google Ads,2025-01-05,1,1,0,0,Karan
+544,Referral,2025-02-15,1,1,0,0,Karan
+545,Referral,2025-03-02,1,0,0,0,Aman
+546,Google Ads,2025-01-25,1,0,0,0,Riya
+547,Organic,2025-02-26,1,1,0,0,Karan
+548,Google Ads,2025-02-17,1,1,0,0,Aman
+549,Referral,2025-01-09,1,1,0,0,Karan
+550,Referral,2025-01-06,1,0,0,0,Riya
+551,Referral,2025-01-05,1,1,1,5000,Aman
+552,Google Ads,2025-02-14,1,1,1,4000,Karan
+553,Facebook Ads,2025-02-01,0,0,0,0,Aman
+554,Referral,2025-02-24,1,0,0,0,Karan
+555,Referral,2025-01-25,1,0,0,0,Aman
+556,Facebook Ads,2025-01-27,0,0,0,0,Neha
+557,Facebook Ads,2025-02-18,0,0,0,0,Karan
+558,Google Ads,2025-01-31,1,0,0,0,Aman
+559,Google Ads,2025-01-10,1,0,0,0,Aman
+560,Organic,2025-01-04,0,0,0,0,Neha
+561,Referral,2025-01-08,1,1,0,0,Karan
+562,Facebook Ads,2025-02-23,1,1,0,0,Aman
+563,Organic,2025-02-01,0,0,0,0,Neha
+564,Organic,2025-01-14,0,0,0,0,Neha
+565,Organic,2025-02-05,1,0,0,0,Riya
+566,Organic,2025-01-25,1,1,1,6000,Karan
+567,Google Ads,2025-01-13,1,1,0,0,Karan
+568,Referral,2025-01-29,1,0,0,0,Neha
+569,Google Ads,2025-01-23,1,1,1,5000,Aman
+570,Google Ads,2025-02-24,1,1,0,0,Karan
+571,Referral,2025-01-28,1,1,0,0,Karan
+572,Facebook Ads,2025-02-25,0,0,0,0,Neha
+573,Facebook Ads,2025-01-27,0,0,0,0,Neha
+574,Google Ads,2025-01-28,0,0,0,0,Riya
+575,Referral,2025-01-29,0,0,0,0,Neha
+576,Facebook Ads,2025-02-04,0,0,0,0,Karan
+577,Google Ads,2025-02-15,0,0,0,0,Karan
+578,Organic,2025-01-03,0,0,0,0,Riya
+579,Google Ads,2025-02-23,1,0,0,0,Riya
+580,Facebook Ads,2025-01-13,0,0,0,0,Riya
+581,Facebook Ads,2025-01-19,1,0,0,0,Karan
+582,Facebook Ads,2025-01-09,1,1,0,0,Neha
+583,Google Ads,2025-01-12,1,1,1,4000,Karan
+584,Google Ads,2025-02-27,1,1,0,0,Karan
+585,Facebook Ads,2025-02-19,1,0,0,0,Karan
+586,Organic,2025-02-18,1,1,0,0,Riya
+587,Referral,2025-02-16,1,0,0,0,Karan
+588,Facebook Ads,2025-02-09,0,0,0,0,Neha
+589,Organic,2025-01-08,0,0,0,0,Aman
+590,Referral,2025-03-02,0,0,0,0,Riya
+591,Facebook Ads,2025-01-28,1,0,0,0,Neha
+592,Facebook Ads,2025-02-22,0,0,0,0,Aman
+593,Google Ads,2025-01-10,1,1,1,6000,Aman
+594,Facebook Ads,2025-02-02,1,0,0,0,Riya
+595,Google Ads,2025-02-14,0,0,0,0,Riya
+596,Referral,2025-02-11,1,1,0,0,Aman
+597,Organic,2025-02-12,1,0,0,0,Riya
+598,Organic,2025-01-23,0,0,0,0,Neha
+599,Referral,2025-02-20,1,1,0,0,Karan
+600,Google Ads,2025-02-25,0,0,0,0,Karan
+601,Organic,2025-01-03,1,0,0,0,Neha
+602,Google Ads,2025-02-28,0,0,0,0,Aman
+603,Organic,2025-01-06,1,1,1,5000,Riya
+604,Referral,2025-02-24,1,1,0,0,Neha
+605,Facebook Ads,2025-02-13,0,0,0,0,Riya
+606,Referral,2025-01-25,1,0,0,0,Karan
+607,Facebook Ads,2025-01-03,0,0,0,0,Aman
+608,Facebook Ads,2025-02-08,1,0,0,0,Neha
+609,Organic,2025-02-12,0,0,0,0,Karan
+610,Referral,2025-01-12,0,0,0,0,Riya
+611,Referral,2025-02-12,1,0,0,0,Karan
+612,Referral,2025-02-09,1,0,0,0,Aman
+613,Referral,2025-01-23,1,1,1,5000,Riya
+614,Referral,2025-02-03,0,0,0,0,Karan
+615,Google Ads,2025-01-30,1,1,0,0,Karan
+616,Organic,2025-01-24,1,1,0,0,Karan
+617,Google Ads,2025-01-10,1,1,0,0,Karan
+618,Referral,2025-02-02,1,1,0,0,Karan
+619,Google Ads,2025-01-04,1,1,0,0,Neha
+620,Organic,2025-02-09,1,1,0,0,Riya
+621,Google Ads,2025-02-22,1,0,0,0,Riya
+622,Organic,2025-01-09,0,0,0,0,Karan
+623,Facebook Ads,2025-02-28,1,0,0,0,Karan
+624,Referral,2025-02-02,1,1,0,0,Karan
+625,Referral,2025-01-29,0,0,0,0,Neha
+626,Google Ads,2025-01-05,0,0,0,0,Aman
+627,Organic,2025-02-17,1,1,0,0,Neha
+628,Referral,2025-02-18,0,0,0,0,Riya
+629,Referral,2025-01-04,1,1,0,0,Neha
+630,Google Ads,2025-01-01,0,0,0,0,Neha
+631,Organic,2025-03-02,1,1,1,6000,Karan
+632,Organic,2025-01-28,0,0,0,0,Neha
+633,Organic,2025-02-10,1,1,0,0,Riya
+634,Referral,2025-01-24,1,1,0,0,Karan
+635,Facebook Ads,2025-02-22,0,0,0,0,Aman
+636,Facebook Ads,2025-01-27,1,0,0,0,Karan
+637,Referral,2025-02-21,1,0,0,0,Karan
+638,Referral,2025-02-06,1,0,0,0,Aman
+639,Facebook Ads,2025-02-25,1,1,1,4000,Riya
+640,Referral,2025-02-27,1,0,0,0,Neha
+641,Google Ads,2025-01-06,1,0,0,0,Neha
+642,Google Ads,2025-02-24,0,0,0,0,Neha
+643,Google Ads,2025-01-27,0,0,0,0,Aman
+644,Referral,2025-02-28,1,1,0,0,Aman
+645,Facebook Ads,2025-02-06,1,0,0,0,Riya
+646,Google Ads,2025-01-03,1,0,0,0,Neha
+647,Google Ads,2025-01-23,1,0,0,0,Neha
+648,Facebook Ads,2025-03-02,1,1,0,0,Aman
+649,Facebook Ads,2025-02-06,0,0,0,0,Aman
+650,Google Ads,2025-02-18,1,1,0,0,Riya
+651,Organic,2025-01-16,1,0,0,0,Aman
+652,Referral,2025-02-15,1,1,0,0,Aman
+653,Facebook Ads,2025-02-22,1,0,0,0,Aman
+654,Organic,2025-02-22,0,0,0,0,Neha
+655,Google Ads,2025-01-23,1,0,0,0,Riya
+656,Organic,2025-02-02,1,0,0,0,Neha
+657,Facebook Ads,2025-01-06,0,0,0,0,Neha
+658,Google Ads,2025-01-06,0,0,0,0,Neha
+659,Referral,2025-01-06,1,0,0,0,Neha
+660,Google Ads,2025-01-13,1,0,0,0,Riya
+661,Facebook Ads,2025-02-15,1,0,0,0,Karan
+662,Google Ads,2025-01-10,1,1,0,0,Neha
+663,Google Ads,2025-01-10,1,1,0,0,Neha
+664,Referral,2025-01-09,0,0,0,0,Neha
+665,Google Ads,2025-01-31,0,0,0,0,Karan
+666,Google Ads,2025-01-12,1,1,0,0,Riya
+667,Organic,2025-01-20,1,0,0,0,Riya
+668,Facebook Ads,2025-02-02,0,0,0,0,Aman
+669,Facebook Ads,2025-02-14,1,0,0,0,Aman
+670,Referral,2025-02-08,0,0,0,0,Riya
+671,Referral,2025-01-17,1,0,0,0,Aman
+672,Facebook Ads,2025-01-04,1,0,0,0,Riya
+673,Google Ads,2025-02-06,1,0,0,0,Riya
+674,Referral,2025-02-15,1,0,0,0,Neha
+675,Google Ads,2025-02-21,0,0,0,0,Karan
+676,Facebook Ads,2025-01-01,0,0,0,0,Karan
+677,Referral,2025-02-11,1,1,0,0,Karan
+678,Organic,2025-02-15,1,1,0,0,Riya
+679,Facebook Ads,2025-02-02,0,0,0,0,Riya
+680,Organic,2025-01-23,1,0,0,0,Riya
+681,Referral,2025-01-23,0,0,0,0,Aman
+682,Organic,2025-01-07,1,0,0,0,Neha
+683,Google Ads,2025-01-16,1,1,0,0,Neha
+684,Referral,2025-02-01,1,0,0,0,Karan
+685,Google Ads,2025-01-31,0,0,0,0,Aman
+686,Facebook Ads,2025-01-27,1,0,0,0,Karan
+687,Google Ads,2025-01-20,0,0,0,0,Riya
+688,Facebook Ads,2025-02-17,0,0,0,0,Karan
+689,Google Ads,2025-01-07,0,0,0,0,Karan
+690,Referral,2025-01-26,0,0,0,0,Neha
+691,Google Ads,2025-01-31,0,0,0,0,Aman
+692,Facebook Ads,2025-02-04,1,1,1,6000,Aman
+693,Facebook Ads,2025-02-17,0,0,0,0,Neha
+694,Organic,2025-01-11,0,0,0,0,Neha
+695,Facebook Ads,2025-02-17,0,0,0,0,Neha
+696,Google Ads,2025-01-11,1,1,0,0,Karan
+697,Referral,2025-02-14,1,0,0,0,Riya
+698,Facebook Ads,2025-01-01,1,1,1,5000,Neha
+699,Referral,2025-02-27,1,1,0,0,Neha
+700,Organic,2025-01-11,1,0,0,0,Riya
+701,Referral,2025-02-01,1,1,1,6000,Karan
+702,Organic,2025-03-02,1,1,0,0,Aman
+703,Google Ads,2025-02-26,1,0,0,0,Aman
+704,Google Ads,2025-03-01,0,0,0,0,Neha
+705,Google Ads,2025-01-28,0,0,0,0,Karan
+706,Google Ads,2025-01-07,0,0,0,0,Aman
+707,Google Ads,2025-01-14,1,0,0,0,Neha
+708,Google Ads,2025-01-02,1,0,0,0,Aman
+709,Facebook Ads,2025-01-13,0,0,0,0,Karan
+710,Facebook Ads,2025-01-02,1,1,0,0,Neha
+711,Facebook Ads,2025-01-28,1,1,0,0,Karan
+712,Google Ads,2025-01-13,1,1,0,0,Aman
+713,Google Ads,2025-02-06,0,0,0,0,Karan
+714,Facebook Ads,2025-02-14,1,0,0,0,Aman
+715,Google Ads,2025-01-19,0,0,0,0,Neha
+716,Google Ads,2025-01-30,0,0,0,0,Neha
+717,Google Ads,2025-01-15,1,1,0,0,Riya
+718,Google Ads,2025-02-05,1,0,0,0,Karan
+719,Referral,2025-01-17,0,0,0,0,Riya
+720,Facebook Ads,2025-01-22,0,0,0,0,Riya
+721,Google Ads,2025-02-18,1,0,0,0,Neha
+722,Facebook Ads,2025-01-11,1,1,0,0,Riya
+723,Facebook Ads,2025-02-06,1,0,0,0,Karan
+724,Referral,2025-02-25,1,1,0,0,Riya
+725,Organic,2025-02-09,0,0,0,0,Riya
+726,Facebook Ads,2025-01-24,1,1,0,0,Karan
+727,Facebook Ads,2025-02-19,1,1,0,0,Aman
+728,Referral,2025-01-23,0,0,0,0,Karan
+729,Organic,2025-01-19,1,1,0,0,Karan
+730,Referral,2025-02-10,0,0,0,0,Aman
+731,Organic,2025-01-14,1,0,0,0,Karan
+732,Google Ads,2025-01-17,1,0,0,0,Karan
+733,Referral,2025-01-23,0,0,0,0,Neha
+734,Facebook Ads,2025-02-20,1,0,0,0,Riya
+735,Organic,2025-02-10,1,0,0,0,Riya
+736,Google Ads,2025-03-01,1,0,0,0,Riya
+737,Organic,2025-01-11,0,0,0,0,Aman
+738,Referral,2025-02-12,1,0,0,0,Riya
+739,Google Ads,2025-02-27,1,0,0,0,Neha
+740,Facebook Ads,2025-02-27,1,0,0,0,Neha
+741,Facebook Ads,2025-02-19,1,0,0,0,Aman
+742,Google Ads,2025-02-10,0,0,0,0,Riya
+743,Organic,2025-02-24,0,0,0,0,Neha
+744,Facebook Ads,2025-03-01,0,0,0,0,Karan
+745,Google Ads,2025-02-05,1,0,0,0,Karan
+746,Referral,2025-01-02,1,0,0,0,Riya
+747,Google Ads,2025-02-19,0,0,0,0,Riya
+748,Organic,2025-02-17,1,1,0,0,Karan
+749,Facebook Ads,2025-02-10,0,0,0,0,Aman
+750,Facebook Ads,2025-02-20,0,0,0,0,Neha
+751,Referral,2025-01-26,1,1,0,0,Riya
+752,Referral,2025-02-05,1,1,0,0,Karan
+753,Google Ads,2025-01-23,1,0,0,0,Riya
+754,Google Ads,2025-02-11,0,0,0,0,Riya
+755,Organic,2025-02-01,0,0,0,0,Karan
+756,Google Ads,2025-02-27,0,0,0,0,Aman
+757,Referral,2025-01-20,1,1,0,0,Karan
+758,Facebook Ads,2025-02-22,0,0,0,0,Riya
+759,Google Ads,2025-02-03,1,1,0,0,Riya
+760,Google Ads,2025-01-25,1,0,0,0,Neha
+761,Facebook Ads,2025-01-26,0,0,0,0,Riya
+762,Referral,2025-01-17,1,1,0,0,Karan
+763,Google Ads,2025-03-02,1,1,1,4000,Neha
+764,Organic,2025-02-26,1,1,0,0,Riya
+765,Organic,2025-01-03,1,0,0,0,Aman
+766,Facebook Ads,2025-02-28,0,0,0,0,Aman
+767,Organic,2025-02-14,0,0,0,0,Karan
+768,Referral,2025-02-02,1,0,0,0,Aman
+769,Facebook Ads,2025-01-27,1,1,0,0,Neha
+770,Facebook Ads,2025-02-02,1,0,0,0,Riya
+771,Referral,2025-01-03,1,0,0,0,Riya
+772,Organic,2025-01-25,1,1,1,6000,Aman
+773,Facebook Ads,2025-01-30,1,0,0,0,Karan
+774,Google Ads,2025-02-08,1,1,0,0,Neha
+775,Referral,2025-01-30,0,0,0,0,Neha
+776,Google Ads,2025-01-07,1,1,0,0,Karan
+777,Organic,2025-01-09,0,0,0,0,Neha
+778,Google Ads,2025-01-04,1,0,0,0,Neha
+779,Organic,2025-02-07,1,0,0,0,Aman
+780,Referral,2025-01-31,1,1,0,0,Neha
+781,Google Ads,2025-01-01,1,0,0,0,Riya
+782,Organic,2025-02-20,1,1,0,0,Neha
+783,Organic,2025-01-19,1,1,0,0,Riya
+784,Organic,2025-01-31,0,0,0,0,Neha
+785,Facebook Ads,2025-02-16,1,1,0,0,Neha
+786,Referral,2025-01-14,1,0,0,0,Karan
+787,Organic,2025-01-21,1,0,0,0,Riya
+788,Organic,2025-01-03,1,0,0,0,Riya
+789,Facebook Ads,2025-01-02,0,0,0,0,Aman
+790,Facebook Ads,2025-02-25,0,0,0,0,Neha
+791,Referral,2025-02-06,0,0,0,0,Riya
+792,Google Ads,2025-01-07,1,0,0,0,Aman
+793,Organic,2025-02-24,1,0,0,0,Riya
+794,Facebook Ads,2025-02-03,0,0,0,0,Karan
+795,Organic,2025-02-18,0,0,0,0,Neha
+796,Referral,2025-02-11,0,0,0,0,Neha
+797,Facebook Ads,2025-02-04,1,1,0,0,Riya
+798,Organic,2025-02-14,1,0,0,0,Neha
+799,Organic,2025-01-04,1,1,0,0,Riya
+800,Facebook Ads,2025-02-27,0,0,0,0,Karan
+801,Google Ads,2025-02-19,0,0,0,0,Riya
+802,Referral,2025-02-25,0,0,0,0,Neha
+803,Facebook Ads,2025-02-02,0,0,0,0,Karan
+804,Referral,2025-01-10,1,1,0,0,Aman
+805,Organic,2025-01-16,1,1,0,0,Riya
+806,Facebook Ads,2025-01-18,1,0,0,0,Aman
+807,Facebook Ads,2025-02-02,0,0,0,0,Karan
+808,Referral,2025-01-24,0,0,0,0,Riya
+809,Facebook Ads,2025-01-07,1,1,0,0,Riya
+810,Facebook Ads,2025-02-07,1,0,0,0,Karan
+811,Google Ads,2025-02-22,1,0,0,0,Karan
+812,Referral,2025-02-21,0,0,0,0,Riya
+813,Organic,2025-02-09,1,0,0,0,Neha
+814,Organic,2025-02-06,0,0,0,0,Karan
+815,Google Ads,2025-01-09,0,0,0,0,Neha
+816,Organic,2025-02-04,1,1,0,0,Riya
+817,Google Ads,2025-01-19,1,1,0,0,Aman
+818,Google Ads,2025-02-28,1,0,0,0,Riya
+819,Facebook Ads,2025-02-13,0,0,0,0,Karan
+820,Google Ads,2025-02-26,1,0,0,0,Neha
+821,Referral,2025-02-02,1,1,0,0,Neha
+822,Referral,2025-01-16,1,0,0,0,Neha
+823,Google Ads,2025-01-12,1,0,0,0,Karan
+824,Organic,2025-02-25,1,1,0,0,Karan
+825,Google Ads,2025-02-02,1,1,0,0,Riya
+826,Google Ads,2025-02-02,1,1,0,0,Riya
+827,Organic,2025-02-12,0,0,0,0,Riya
+828,Google Ads,2025-02-27,1,0,0,0,Neha
+829,Google Ads,2025-02-19,1,1,0,0,Riya
+830,Google Ads,2025-01-12,0,0,0,0,Aman
+831,Organic,2025-01-12,1,0,0,0,Karan
+832,Referral,2025-02-28,1,0,0,0,Neha
+833,Facebook Ads,2025-02-07,1,0,0,0,Karan
+834,Google Ads,2025-02-06,1,0,0,0,Riya
+835,Facebook Ads,2025-01-23,1,0,0,0,Riya
+836,Organic,2025-01-29,1,1,0,0,Karan
+837,Google Ads,2025-01-20,0,0,0,0,Aman
+838,Google Ads,2025-02-17,0,0,0,0,Aman
+839,Facebook Ads,2025-01-22,1,1,0,0,Karan
+840,Facebook Ads,2025-02-16,0,0,0,0,Aman
+841,Facebook Ads,2025-02-23,0,0,0,0,Neha
+842,Referral,2025-01-01,1,0,0,0,Riya
+843,Organic,2025-01-28,1,0,0,0,Aman
+844,Google Ads,2025-01-04,1,0,0,0,Neha
+845,Referral,2025-02-20,1,1,0,0,Neha
+846,Facebook Ads,2025-02-08,1,0,0,0,Karan
+847,Google Ads,2025-01-19,0,0,0,0,Aman
+848,Facebook Ads,2025-01-19,1,1,0,0,Aman
+849,Google Ads,2025-02-19,0,0,0,0,Aman
+850,Organic,2025-01-23,0,0,0,0,Karan
+851,Referral,2025-02-06,1,0,0,0,Neha
+852,Google Ads,2025-02-07,0,0,0,0,Karan
+853,Organic,2025-01-18,0,0,0,0,Neha
+854,Referral,2025-02-10,0,0,0,0,Aman
+855,Google Ads,2025-01-26,0,0,0,0,Karan
+856,Organic,2025-01-01,1,0,0,0,Aman
+857,Google Ads,2025-02-18,1,0,0,0,Riya
+858,Facebook Ads,2025-01-04,1,1,0,0,Neha
+859,Facebook Ads,2025-01-12,1,0,0,0,Riya
+860,Referral,2025-02-11,0,0,0,0,Neha
+861,Organic,2025-01-14,1,1,0,0,Neha
+862,Google Ads,2025-01-02,1,1,0,0,Aman
+863,Organic,2025-02-05,0,0,0,0,Karan
+864,Google Ads,2025-01-03,1,1,0,0,Riya
+865,Google Ads,2025-02-13,1,0,0,0,Riya
+866,Referral,2025-01-19,1,0,0,0,Karan
+867,Referral,2025-01-01,1,1,0,0,Aman
+868,Google Ads,2025-02-08,1,1,1,5000,Neha
+869,Referral,2025-01-06,0,0,0,0,Neha
+870,Organic,2025-01-04,0,0,0,0,Neha
+871,Organic,2025-01-08,0,0,0,0,Karan
+872,Referral,2025-01-10,1,1,0,0,Karan
+873,Google Ads,2025-01-05,1,1,0,0,Neha
+874,Referral,2025-02-02,0,0,0,0,Riya
+875,Facebook Ads,2025-01-03,1,0,0,0,Riya
+876,Referral,2025-01-28,1,1,0,0,Aman
+877,Organic,2025-01-06,0,0,0,0,Neha
+878,Referral,2025-02-27,0,0,0,0,Riya
+879,Facebook Ads,2025-01-06,0,0,0,0,Riya
+880,Facebook Ads,2025-01-23,0,0,0,0,Karan
+881,Referral,2025-01-06,0,0,0,0,Aman
+882,Facebook Ads,2025-01-14,1,1,0,0,Aman
+883,Organic,2025-01-12,0,0,0,0,Karan
+884,Facebook Ads,2025-01-02,1,1,0,0,Neha
+885,Organic,2025-01-18,1,0,0,0,Karan
+886,Facebook Ads,2025-03-02,1,1,0,0,Riya
+887,Organic,2025-02-11,1,0,0,0,Aman
+888,Organic,2025-02-27,1,0,0,0,Aman
+889,Organic,2025-01-18,1,1,1,6000,Karan
+890,Referral,2025-01-16,1,0,0,0,Riya
+891,Organic,2025-01-09,0,0,0,0,Neha
+892,Referral,2025-02-16,1,0,0,0,Karan
+893,Referral,2025-02-08,1,0,0,0,Aman
+894,Referral,2025-01-16,1,1,1,5000,Riya
+895,Organic,2025-01-14,0,0,0,0,Aman
+896,Referral,2025-02-01,1,1,0,0,Aman
+897,Facebook Ads,2025-02-18,1,1,0,0,Karan
+898,Google Ads,2025-01-18,1,0,0,0,Aman
+899,Referral,2025-01-16,0,0,0,0,Neha
+900,Facebook Ads,2025-01-04,0,0,0,0,Neha
+901,Referral,2025-01-25,0,0,0,0,Neha
+902,Referral,2025-01-28,0,0,0,0,Riya
+903,Facebook Ads,2025-02-01,0,0,0,0,Aman
+904,Facebook Ads,2025-02-25,1,1,1,4000,Riya
+905,Google Ads,2025-01-25,1,0,0,0,Karan
+906,Facebook Ads,2025-01-01,1,0,0,0,Aman
+907,Organic,2025-01-07,0,0,0,0,Riya
+908,Facebook Ads,2025-01-05,1,0,0,0,Neha
+909,Organic,2025-01-10,1,1,0,0,Karan
+910,Organic,2025-01-25,0,0,0,0,Aman
+911,Facebook Ads,2025-01-26,1,0,0,0,Karan
+912,Google Ads,2025-02-04,0,0,0,0,Riya
+913,Organic,2025-01-03,1,0,0,0,Neha
+914,Organic,2025-01-16,1,1,0,0,Neha
+915,Organic,2025-02-07,0,0,0,0,Karan
+916,Facebook Ads,2025-01-21,0,0,0,0,Riya
+917,Google Ads,2025-02-21,0,0,0,0,Neha
+918,Referral,2025-01-18,0,0,0,0,Karan
+919,Facebook Ads,2025-01-07,1,0,0,0,Karan
+920,Google Ads,2025-02-09,1,1,1,6000,Aman
+921,Google Ads,2025-01-02,1,0,0,0,Karan
+922,Referral,2025-01-09,1,1,0,0,Karan
+923,Referral,2025-02-23,0,0,0,0,Neha
+924,Referral,2025-02-11,1,0,0,0,Neha
+925,Referral,2025-01-20,0,0,0,0,Riya
+926,Facebook Ads,2025-02-17,0,0,0,0,Aman
+927,Google Ads,2025-02-08,1,1,0,0,Neha
+928,Facebook Ads,2025-02-14,1,0,0,0,Neha
+929,Google Ads,2025-02-12,1,0,0,0,Riya
+930,Facebook Ads,2025-01-05,0,0,0,0,Neha
+931,Facebook Ads,2025-02-09,0,0,0,0,Neha
+932,Facebook Ads,2025-02-17,1,0,0,0,Neha
+933,Google Ads,2025-03-01,1,0,0,0,Riya
+934,Facebook Ads,2025-01-30,0,0,0,0,Karan
+935,Referral,2025-02-08,0,0,0,0,Riya
+936,Facebook Ads,2025-02-20,1,1,1,6000,Riya
+937,Organic,2025-01-25,1,0,0,0,Aman
+938,Organic,2025-02-19,1,0,0,0,Aman
+939,Referral,2025-01-05,1,0,0,0,Riya
+940,Organic,2025-01-06,1,0,0,0,Riya
+941,Google Ads,2025-01-03,0,0,0,0,Riya
+942,Organic,2025-02-24,1,0,0,0,Aman
+943,Google Ads,2025-02-03,0,0,0,0,Karan
+944,Google Ads,2025-01-31,0,0,0,0,Riya
+945,Organic,2025-01-29,1,1,1,4000,Aman
+946,Facebook Ads,2025-02-04,1,1,0,0,Neha
+947,Organic,2025-02-01,1,0,0,0,Neha
+948,Organic,2025-01-16,0,0,0,0,Neha
+949,Google Ads,2025-02-11,1,0,0,0,Aman
+950,Organic,2025-01-15,1,0,0,0,Aman
+951,Referral,2025-01-08,1,1,1,5000,Aman
+952,Organic,2025-02-24,1,1,0,0,Riya
+953,Facebook Ads,2025-01-01,1,0,0,0,Neha
+954,Facebook Ads,2025-02-23,1,1,0,0,Neha
+955,Facebook Ads,2025-01-27,0,0,0,0,Karan
+956,Google Ads,2025-01-04,0,0,0,0,Aman
+957,Facebook Ads,2025-02-23,1,0,0,0,Riya
+958,Facebook Ads,2025-01-31,0,0,0,0,Karan
+959,Referral,2025-02-10,0,0,0,0,Neha
+960,Facebook Ads,2025-02-04,1,1,0,0,Karan
+961,Google Ads,2025-01-12,0,0,0,0,Neha
+962,Organic,2025-02-16,0,0,0,0,Riya
+963,Facebook Ads,2025-01-19,1,1,0,0,Aman
+964,Referral,2025-01-03,0,0,0,0,Aman
+965,Organic,2025-02-10,0,0,0,0,Riya
+966,Organic,2025-01-22,1,1,0,0,Aman
+967,Organic,2025-02-12,0,0,0,0,Riya
+968,Organic,2025-03-02,0,0,0,0,Karan
+969,Organic,2025-03-01,1,0,0,0,Aman
+970,Referral,2025-02-09,1,1,0,0,Karan
+971,Organic,2025-01-24,0,0,0,0,Karan
+972,Google Ads,2025-01-13,0,0,0,0,Aman
+973,Facebook Ads,2025-02-09,1,1,0,0,Karan
+974,Organic,2025-01-21,1,0,0,0,Aman
+975,Organic,2025-02-15,1,1,0,0,Aman
+976,Referral,2025-01-25,1,1,0,0,Karan
+977,Organic,2025-02-12,1,1,0,0,Neha
+978,Google Ads,2025-01-28,0,0,0,0,Riya
+979,Facebook Ads,2025-02-05,0,0,0,0,Neha
+980,Referral,2025-03-02,1,0,0,0,Riya
+981,Facebook Ads,2025-02-01,0,0,0,0,Karan
+982,Referral,2025-01-14,1,0,0,0,Riya
+983,Organic,2025-02-27,1,1,0,0,Neha
+984,Referral,2025-02-03,0,0,0,0,Karan
+985,Facebook Ads,2025-01-11,0,0,0,0,Karan
+986,Facebook Ads,2025-01-14,1,1,0,0,Neha
+987,Google Ads,2025-02-16,1,1,1,4000,Neha
+988,Google Ads,2025-02-13,1,0,0,0,Riya
+989,Referral,2025-01-19,1,0,0,0,Aman
+990,Referral,2025-02-22,1,1,0,0,Aman
+991,Referral,2025-02-21,1,0,0,0,Karan
+992,Organic,2025-02-09,1,1,1,5000,Neha
+993,Google Ads,2025-01-16,0,0,0,0,Aman
+994,Google Ads,2025-01-31,0,0,0,0,Aman
+995,Facebook Ads,2025-01-16,0,0,0,0,Riya
+996,Google Ads,2025-02-15,1,1,0,0,Neha
+997,Referral,2025-01-01,1,1,0,0,Neha
+998,Referral,2025-02-12,1,1,0,0,Riya
+999,Facebook Ads,2025-01-25,0,0,0,0,Neha
+1000,Organic,2025-01-11,1,1,1,6000,Neha
