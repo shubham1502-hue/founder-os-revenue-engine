@@ -25,6 +25,10 @@ They fail because:
 
 This project solves that.
 
+## Funnel Snapshot
+
+![Funnel](./assets/funnel_chart.png)
+
 ---
 
 ## What This System Does
