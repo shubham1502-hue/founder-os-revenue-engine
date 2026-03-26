@@ -29,6 +29,7 @@ This project solves that.
 
 ![Funnel](./assets/funnel_chart.png)
 
+Biggest drop at conversion, but improving attendance unlocks higher overall revenue.
 ---
 
 ## What This System Does
