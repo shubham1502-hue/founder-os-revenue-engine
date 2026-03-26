@@ -1,6 +1,16 @@
 # Founder OS: Revenue Engine
 
-A simulation of how a Founder’s Office operator drives business outcomes by identifying revenue leakage, prioritizing execution, and converting ambiguity into action.
+## If you’re a founder:
+
+This project answers one question:
+
+“Where am I losing revenue, and what should I fix first?”
+
+Built as a simulation of how a Founder’s Office operator thinks and executes.
+
+## How I Think
+
+See: [Founder Note](./founder_note.md)
 
 ---
 
@@ -50,6 +60,26 @@ While conversion appears to be the largest drop-off, improving attendance unlock
 - Improved revenue throughput  
 
 ---
+## Sample Output
+
+### Revenue Leakage Analysis
+
+- Demo Booking Rate: ~58%
+- Demo Attendance Rate: ~50%
+- Conversion Rate: ~18%
+
+Biggest Leak: Conversion  
+Highest Leverage Fix: Improve attendance  
+
+---
+
+### Priority Task
+
+FOCUS AREA: Improve demo attendance  
+
+Actions:
+- Add WhatsApp reminders  
+- Reduce delay between booking & demo  
 
 ## Why This Matters
 
@@ -57,3 +87,11 @@ This project demonstrates how to:
 - Think like a founder  
 - Operate under chaos  
 - Drive outcomes, not just insights  
+
+## How to Run
+
+```bash
+python data/generate_data.py
+python analysis/revenue_leak.py
+python execution/task_prioritization.py
+python communication/investor_update.py
