@@ -1,5 +1,21 @@
 # Founder OS: Revenue Engine
 
+## Problem This Solves
+
+Founders do not need another static funnel chart. They need to know where revenue is leaking, which fix has the highest leverage, and what should happen next this week.
+
+## How It Helps
+
+- Converts messy funnel movement into a decision-ready view of leakage, leverage, and priority actions.
+- Demonstrates how a founder's office operator moves from analysis to execution notes, not just charts.
+- Provides a lightweight structure for weekly revenue diagnosis, action prioritization, and investor-style communication.
+
+## When To Fork This
+
+- Fork this if your startup has leads, demos, attendance, conversion, or revenue stages but no clear weekly operating cadence.
+- Fork it when debates about growth problems are based on opinion instead of quantified bottlenecks.
+- Replace the simulated data with your CRM funnel export, then tune the priority scoring and update templates.
+
 ## If you’re a founder:
 
 This project answers one question:
