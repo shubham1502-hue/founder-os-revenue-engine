@@ -26,12 +26,16 @@ This repo is designed to be forked into an internal company workflow. Fork it, r
 
 ## Minimum Edits To Make It Yours
 
-- data/raw_data.csv
-- context/startup_overview.md
-- priority scoring assumptions
-- investor update wording
+Change these first:
 
-The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+| Edit | Where | Why |
+|---|---|---|
+| Replace the funnel export. | `data/raw_data.csv` | This drives leakage analysis, priority scoring, and revenue recommendations. |
+| Rewrite company context. | `context/startup_overview.md` | Makes the output reflect your GTM motion, customer, pricing, and stage. |
+| Tune priority scoring. | `execution/task_prioritization.py` | Changes how the system ranks bottlenecks and weekly actions. |
+| Update founder/investor narrative. | `founder_note.md` and `communication/investor_update.py` | Makes the communication usable in your actual operating review. |
+
+You can leave the funnel chart, analysis structure, and case-study layout alone on the first fork. Replace the data first; tune scoring only after the first real readout feels off.
 
 ## If you’re a founder:
 
