@@ -86,6 +86,14 @@ The default sample data and examples are synthetic, anonymized, or template-only
 - `founder_note.md`: leadership note
 - script outputs from `analysis/`, `execution/`, and `communication/` modules
 
+## Sample outputs to inspect
+
+Open these before changing funnel logic:
+
+- `founder_note.md`: the founder-facing leadership note.
+- `case/founder_case.md`: the example revenue diagnosis memo.
+- `assets/funnel_chart.png`: the visual funnel snapshot.
+
 ## Example founder workflow
 
 - Monday: export funnel data.
