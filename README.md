@@ -1,139 +1,179 @@
-# Founder OS: Revenue Engine
+# Founder OS Revenue Engine
 
-## Problem This Solves
+A founder-facing revenue operating system for diagnosing funnel leakage, prioritizing weekly GTM actions, and turning scattered pipeline signals into an operating cadence.
 
-Founders do not need another static funnel chart. They need to know where revenue is leaking, which fix has the highest leverage, and what should happen next this week.
+Early-stage founders lose revenue when pipeline movement, funnel leakage, conversion risk, and weekly action ownership are spread across CRM exports, team notes, and ad hoc updates. This repo models a lightweight Founder OS workflow that shows where revenue is leaking, what to fix first, and how to communicate the operating focus clearly.
+
+## Problem
+
+Founders do not usually need another dashboard. They need a fast way to answer:
+
+- Where is revenue leaking in the funnel?
+- Which bottleneck matters most this week?
+- What action should the team own next?
+- How should the revenue story be communicated to operators, sales, and investors?
+
+This project turns a simulated early-stage funnel into a repeatable review process for revenue diagnosis, prioritization, and weekly execution.
 
 ## How It Helps
 
 - Converts messy funnel movement into a decision-ready view of leakage, leverage, and priority actions.
 - Demonstrates how a founder's office operator moves from analysis to execution notes, not just charts.
 - Provides a lightweight structure for weekly revenue diagnosis, action prioritization, and investor-style communication.
+- Supports a recurring GTM/revenue review cadence without requiring a full BI implementation.
+
+## What This Repo Includes
+
+- `data/generate_data.py`: creates a synthetic lead-to-revenue dataset.
+- `data/raw_data.csv`: sample generated funnel data used by the scripts.
+- `context/startup_overview.md`: company context placeholder for adapting the system.
+- `analysis/revenue_leak.py`: calculates funnel rates, revenue leakage, and the largest drop-off stage.
+- `analysis/funnel_chart.py`: charting script for funnel visualization.
+- `assets/funnel_chart.png`: existing funnel snapshot used by the README.
+- `execution/task_prioritization.py`: ranks founder actions using impact, urgency, and effort.
+- `communication/investor_update.py`: prints an investor-style operating update from the funnel metrics.
+- `case/founder_case.md`: written case simulation with findings, hypotheses, and execution plan.
+- `founder_note.md`: short note on the Founder OS operating philosophy.
 
 ## When To Fork This
 
 - Fork this if your startup has leads, demos, attendance, conversion, or revenue stages but no clear weekly operating cadence.
-- Fork it when debates about growth problems are based on opinion instead of quantified bottlenecks.
+- Fork it when growth debates are based on opinions instead of quantified funnel bottlenecks.
 - Replace the simulated data with your CRM funnel export, then tune the priority scoring and update templates.
 
-## Use This In Your Company
+## System Workflow
 
-This repo is designed to be forked into an internal company workflow. Fork it, replace the sample inputs with your company context, and keep only the parts that match your operating cadence. No permission request or sales call is needed before using it; the repo is the handoff. Check the license if you plan to redistribute your version.
+1. Generate or refresh the funnel dataset.
+2. Measure booking, attendance, conversion, and revenue throughput.
+3. Identify the biggest funnel leak and the highest-leverage operating fix.
+4. Convert the diagnosis into a ranked weekly action list.
+5. Produce a concise founder/investor update for the GTM review cadence.
 
-- Use it as a founder-level revenue diagnosis workflow for pipeline, funnel leakage, and execution priorities.
-- Keep the sequence: raw data -> leak analysis -> priority scoring -> founder note -> investor-safe update.
-- Replace the sample funnel data and company context with your own GTM motion.
+The system is intentionally small: it is a practical operating loop, not a heavyweight BI stack.
 
-## Minimum Edits To Make It Yours
+## KPI / Funnel Logic
 
-Change these first:
+The repo models a simple lead-to-revenue funnel:
 
-| Edit | Where | Why |
-|---|---|---|
-| Replace the funnel export. | `data/raw_data.csv` | This drives leakage analysis, priority scoring, and revenue recommendations. |
-| Rewrite company context. | `context/startup_overview.md` | Makes the output reflect your GTM motion, customer, pricing, and stage. |
-| Tune priority scoring. | `execution/task_prioritization.py` | Changes how the system ranks bottlenecks and weekly actions. |
-| Update founder/investor narrative. | `founder_note.md` and `communication/investor_update.py` | Makes the communication usable in your actual operating review. |
+```text
+Lead -> Demo Booked -> Demo Attended -> Converted -> Revenue
+```
 
-You can leave the funnel chart, analysis structure, and case-study layout alone on the first fork. Replace the data first; tune scoring only after the first real readout feels off.
+Core metrics:
 
-## If you’re a founder:
+- Demo booking rate = booked demos / total leads
+- Demo attendance rate = attended demos / booked demos
+- Conversion rate = converted customers / attended demos
+- Revenue leakage = modeled expected revenue - actual generated revenue
+- Priority score = impact x urgency / effort
 
-This project answers one question:
+The current sample data shows roughly:
 
-“Where am I losing revenue, and what should I fix first?”
+- Demo booking rate: 58%
+- Demo attendance rate: 50%
+- Conversion rate: 18%
 
-Built as a simulation of how a Founder’s Office operator thinks and executes.
-
-## How I Think
-
-See: [Founder Note](./founder_note.md)
-
----
-
-## The Problem
-
-Early-stage startups don’t fail due to lack of data.
-
-They fail because:
-- Problems are unclear
-- Priorities are misaligned
-- Execution is scattered
-
-This project solves that.
+In the sample case, conversion is the largest drop-off, while improving demo attendance is framed as the highest-leverage weekly operating fix because it increases throughput before the conversion stage.
 
 ## Funnel Snapshot
 
-![Funnel](./assets/funnel_chart.png)
+![Funnel snapshot](./assets/funnel_chart.png)
 
-Biggest drop at conversion, but improving attendance unlocks higher overall revenue.
----
+## Example Founder Use Cases
 
-## What This System Does
+- Weekly revenue review: identify the main funnel constraint before the GTM meeting.
+- Founder office cadence: turn funnel metrics into a short action plan with owners.
+- Sales ops diagnosis: separate attendance problems from post-demo conversion problems.
+- Investor update prep: translate funnel performance into a clear operating narrative.
+- RevOps onboarding: replace the sample data with a CRM export and adapt the scoring rules.
 
-1. Identifies revenue leakage across funnel stages  
-2. Quantifies impact of each bottleneck  
-3. Prioritizes execution using impact-driven scoring  
-4. Generates founder-level insights and action plans  
-5. Communicates updates like an operator, not an analyst  
+## Use This In Your Company
 
----
+This repo is designed to be forked into an internal company workflow. Replace the sample inputs with your company context, keep only the pieces that match your operating cadence, and use the MIT license as the reuse baseline.
 
-## System Architecture
+1. Replace the sample dataset with a weekly CRM or spreadsheet export.
+2. Map your funnel stages to the fields used by the scripts.
+3. Run the analysis before the weekly GTM or founder staff meeting.
+4. Assign one owner and one due date to the highest-priority action.
+5. Re-run the system weekly and track whether the bottleneck moves.
+6. Use the investor update script as a starting point for internal and external reporting.
 
-- `/data` → Simulated startup funnel data  
-- `/analysis` → Revenue leakage detection  
-- `/execution` → Task prioritization engine  
-- `/communication` → Investor-style updates  
-- `/case` → Founder-level problem solving  
+## Minimum Edits Before First Use
 
----
+| Edit | Where | Why |
+| --- | --- | --- |
+| Replace sample data | `data/raw_data.csv` or `data/generate_data.py` | Use your actual funnel stages, sources, reps, and revenue fields. |
+| Rewrite company context | `context/startup_overview.md` | Make the workflow reflect your GTM motion, customer, pricing, and stage. |
+| Update funnel definitions | `analysis/revenue_leak.py` | Match your company motion, such as signup, activation, meeting, trial, or paid conversion. |
+| Tune priority scoring | `execution/task_prioritization.py` | Reflect your real operating constraints, team capacity, and urgency. |
+| Adapt update language | `founder_note.md` and `communication/investor_update.py` | Match the tone and metrics used in your board, investor, or leadership updates. |
+| Add owners and dates | `case/founder_case.md` | Turn recommendations into a weekly operating plan. |
 
-## Key Insight
+You can leave the funnel chart, analysis structure, and case-study layout alone on the first fork. Replace the data first; tune scoring only after the first real readout feels off.
 
-While conversion appears to be the largest drop-off, improving attendance unlocks higher leverage across the funnel, making it the highest priority execution area.
+## How To Run / Use
 
----
-
-## Outcome
-
-- Structured decision-making under ambiguity  
-- Clear execution priorities  
-- Improved revenue throughput  
-
----
-## Sample Output
-
-### Revenue Leakage Analysis
-
-- Demo Booking Rate: ~58%
-- Demo Attendance Rate: ~50%
-- Conversion Rate: ~18%
-
-Biggest Leak: Conversion  
-Highest Leverage Fix: Improve attendance  
-
----
-
-### Priority Task
-
-FOCUS AREA: Improve demo attendance  
-
-Actions:
-- Add WhatsApp reminders  
-- Reduce delay between booking & demo  
-
-## Why This Matters
-
-This project demonstrates how to:
-- Think like a founder  
-- Operate under chaos  
-- Drive outcomes, not just insights  
-
-## How to Run
+Run commands from the repo root:
 
 ```bash
-python data/generate_data.py
-python analysis/revenue_leak.py
-python execution/task_prioritization.py
-python communication/investor_update.py
+python3 data/generate_data.py
+python3 analysis/revenue_leak.py
+python3 execution/task_prioritization.py
+python3 communication/investor_update.py
+```
+
+Dependencies used by the scripts:
+
+- `pandas`
+- `numpy`
+- `matplotlib` for the charting script
+
+The core workflow is terminal-based. The chart image in `assets/funnel_chart.png` is included as a visual snapshot; adapt the chart script path if you regenerate charts in your own environment.
+
+## Outputs
+
+- Funnel metrics: total leads, booking rate, attendance rate, conversion rate.
+- Revenue view: generated revenue, expected revenue, and estimated leakage.
+- Bottleneck diagnosis: biggest drop-off stage and recommended fix.
+- Priority list: founder actions ranked by impact, urgency, and effort.
+- Investor-style update: concise metrics, current problem, actions this week, and focus area.
+
+## Folder Structure
+
+```text
+.
+|-- analysis/
+|   |-- funnel_chart.py
+|   `-- revenue_leak.py
+|-- assets/
+|   `-- funnel_chart.png
+|-- case/
+|   `-- founder_case.md
+|-- communication/
+|   `-- investor_update.py
+|-- context/
+|   `-- startup_overview.md
+|-- data/
+|   |-- generate_data.py
+|   `-- raw_data.csv
+|-- execution/
+|   `-- task_prioritization.py
+|-- .gitignore
+|-- LICENSE
+|-- founder_note.md
+`-- README.md
+```
+
+## Customization Guide
+
+- For PLG SaaS: rename funnel stages to signup, activation, retained, paid.
+- For sales-led SaaS: map stages to lead, qualified, meeting, proposal, closed-won.
+- For services or agencies: map stages to inquiry, discovery, proposal, signed, billed.
+- For marketplace or fintech workflows: add risk, approval, or transaction completion stages.
+- For team cadence: add owner, due date, status, and next review date to the priority output.
+
+Keep the operating loop stable even as the metrics change: diagnose the leak, choose the highest-leverage fix, assign ownership, and review progress weekly.
+
+## Portfolio Note
+
+This repo is part of a Founder OS / RevOps portfolio: practical systems for early-stage founders who need clearer operating visibility, faster revenue diagnosis, and sharper weekly execution. It is designed to show how a founder's office operator can move from messy funnel data to decisions, actions, and narrative clarity.
