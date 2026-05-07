@@ -26,13 +26,13 @@ biggest_issue = max(drop_offs, key=drop_offs.get)
 # Generate update
 print("\n===== INVESTOR UPDATE =====\n")
 
-print("📈 Key Metrics:")
+print("Key Metrics:")
 print(f"- Revenue: ₹{total_revenue:,.0f}")
 print(f"- Booking Rate: {booking_rate:.2%}")
 print(f"- Attendance Rate: {attendance_rate:.2%}")
 print(f"- Conversion Rate: {conversion_rate:.2%}")
 
-print("\n⚠️ Key Problem:")
+print("\nKey Problem:")
 if biggest_issue == "Booking":
     print("- Low demo bookings reducing top-of-funnel efficiency")
 elif biggest_issue == "Attendance":
@@ -40,7 +40,7 @@ elif biggest_issue == "Attendance":
 else:
     print("- Low post-demo conversion affecting revenue realization")
 
-print("\n🚀 Actions This Week:")
+print("\nActions This Week:")
 if biggest_issue == "Attendance":
     print("- Implement WhatsApp + email reminders")
     print("- Reduce delay between booking and demo")
@@ -54,5 +54,5 @@ else:
     print("- Improve sales scripts")
     print("- Train sales team on objection handling")
 
-print("\n🎯 Focus:")
+print("\nFocus:")
 print(f"- Fixing {biggest_issue.lower()} to unlock next growth milestone")
