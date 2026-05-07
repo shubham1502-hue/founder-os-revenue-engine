@@ -16,6 +16,21 @@ Founders do not need another static funnel chart. They need to know where revenu
 - Fork it when debates about growth problems are based on opinion instead of quantified bottlenecks.
 - Replace the simulated data with your CRM funnel export, then tune the priority scoring and update templates.
 
+## Use This In Your Company
+
+- Use it as a founder-level revenue diagnosis workflow for pipeline, funnel leakage, and execution priorities.
+- Keep the sequence: raw data -> leak analysis -> priority scoring -> founder note -> investor-safe update.
+- Replace the sample funnel data and company context with your own GTM motion.
+
+## Minimum Edits To Make It Yours
+
+- data/raw_data.csv
+- context/startup_overview.md
+- priority scoring assumptions
+- investor update wording
+
+The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+
 ## If you’re a founder:
 
 This project answers one question:
