@@ -26,6 +26,10 @@ This project turns a simulated early-stage funnel into a repeatable review proce
 
 Founder OS Revenue Engine diagnoses funnel leakage at the weekly revenue level. [Founder-Led Sales Call OS](https://github.com/shubham1502-hue/founder-led-sales-call-os) works one layer deeper by extracting call-level objections, confusion, urgency, and deal rescue actions that explain why the funnel is leaking.
 
+## Automation leverage input
+
+Founder OS Revenue Engine diagnoses revenue leakage. [Founder AI Workflow ROI OS](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) helps decide which revenue, RevOps, reporting, or handoff workflows are worth automating, hiring for, outsourcing, or leaving manual.
+
 ## What This Repo Includes
 
 - `data/generate_data.py`: creates a synthetic lead-to-revenue dataset.
