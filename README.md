@@ -18,6 +18,8 @@ Founders do not need another static funnel chart. They need to know where revenu
 
 ## Use This In Your Company
 
+This repo is designed to be forked into an internal company workflow. Fork it, replace the sample inputs with your company context, and keep only the parts that match your operating cadence. No permission request or sales call is needed before using it; the repo is the handoff. Check the license if you plan to redistribute your version.
+
 - Use it as a founder-level revenue diagnosis workflow for pipeline, funnel leakage, and execution priorities.
 - Keep the sequence: raw data -> leak analysis -> priority scoring -> founder note -> investor-safe update.
 - Replace the sample funnel data and company context with your own GTM motion.
