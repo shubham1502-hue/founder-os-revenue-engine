@@ -1,5 +1,151 @@
 # Founder OS Revenue Engine
 
+Diagnose revenue leakage, funnel bottlenecks, and weekly GTM actions from lightweight pipeline and operating inputs.
+
+<!-- FOUNDER_OS_STANDARD_README -->
+
+## The founder problem
+
+Early revenue teams often have pipeline data, call notes, and weekly action items scattered across tools. The founder problem is deciding where revenue is leaking, which bottleneck matters now, and who owns the next action.
+
+## What this repo does
+
+- generates sample revenue data
+- analyzes funnel leakage and bottlenecks
+- prioritizes execution tasks
+- creates founder-facing investor or leadership update language
+
+## What a founder gets in 10 minutes
+
+- funnel leakage analysis
+- prioritized weekly GTM task list
+- funnel chart
+- founder case note
+- investor update draft
+
+## Before and after
+
+Before:
+
+- CRM export without a decision
+- pipeline stages with unclear leakage
+- weekly GTM meeting driven by anecdotes
+- no owner for revenue fixes
+
+After:
+
+- ranked leakage points
+- weekly action list
+- clear GTM owners
+- founder-ready communication artifact
+
+## Who this is for
+
+- early-stage founders
+- RevOps operators
+- GTM operators
+- Founder's Office teams
+- BizOps operators
+
+## Quick start
+
+- Run `python3 data/generate_data.py`.
+- Run `python3 analysis/revenue_leak.py`.
+- Run `python3 execution/task_prioritization.py`.
+- Run `python3 communication/investor_update.py`.
+- Open `founder_note.md` or `case/founder_case.md` first.
+
+## How to fork and use this for your company
+
+1. Click Fork.
+2. Rename the repo if needed.
+3. Replace `data/raw_data.csv` with your funnel or CRM export.
+4. Update `context/startup_overview.md` with company stage, ACV, ICP, and current GTM motion.
+5. Run the analysis scripts from the repo root.
+6. Move the action list into Linear, Asana, ClickUp, HubSpot, Pipedrive, Attio, or your weekly GTM tracker.
+
+### Non-technical path
+
+- Replace one CSV: `data/raw_data.csv`.
+- Edit one context file: `context/startup_overview.md`.
+- Run the commands in order.
+- Read one output first: `founder_note.md`.
+
+## Input format
+
+- pipeline or funnel data with stage, value, conversion, owner, and timing fields
+- startup context including ICP, pricing, GTM motion, and current operating focus
+- optional notes on sales calls or automation leverage
+
+The default sample data and examples are synthetic, anonymized, or template-only unless the repo explicitly documents a public source. Keep private customer, prospect, employee, investor, borrower, merchant, payment, or company data out of public forks.
+
+## Output files
+
+- `assets/funnel_chart.png`: visual funnel snapshot
+- `case/founder_case.md`: founder case memo
+- `founder_note.md`: leadership note
+- script outputs from `analysis/`, `execution/`, and `communication/` modules
+
+## Example founder workflow
+
+- Monday: export funnel data.
+- Tuesday: run leakage analysis.
+- Wednesday: review bottlenecks with GTM owner.
+- Thursday: assign follow-up and experiments.
+- Friday: summarize revenue focus in the weekly review.
+
+## Customization guide
+
+Customize these before using the repo for a real company:
+
+- funnel stages
+- conversion thresholds
+- task priority rules
+- investor update language
+- CRM export format
+
+## Where this fits in the Founder OS
+
+Use this after `ai-gtm-command-center` and `founder-led-sales-call-os` start producing account and call signals. Pair it with `startup-metrics-playbook` for metric definitions and `revops-infrastructure-playbook` for CRM and reporting architecture.
+
+## Why this matters
+
+This is not a static dashboard. It is a weekly revenue diagnosis workflow that turns funnel data into founder action.
+
+## Roadmap
+
+- CRM import templates
+- weekly review integration
+- Google Sheets output
+- Slack alerts for leakage spikes
+- HubSpot/Pipedrive/Attio sync
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) if present. Practical improvements are welcome when they make the workflow easier to fork, run, or adapt.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+
+## Built by
+
+Built by Shubham Singh, a founder-facing operator focused on RevOps, GTM systems, startup metrics, AI workflows, and operating systems for early-stage teams.
+
+## Use this in your company
+
+Fork it, replace the sample inputs with your company context, and run the workflow. Start with the main output listed in the Quick Start section. Keep private data out of public forks.
+
+## If you are a Founder's Office candidate
+
+Use this repo to understand how a founder-facing operator turns messy inputs into decisions, cadence, and execution artifacts. Fork it, adapt it to a real company example, and write a short case note explaining what changed.
+
+---
+
+## Detailed implementation notes
+
+The founder-facing guide above is the fastest path. The original repo-specific notes are preserved below for deeper implementation context.
+
 A founder-facing revenue operating system for diagnosing funnel leakage, prioritizing weekly GTM actions, and turning scattered pipeline signals into an operating cadence.
 
 Early-stage founders lose revenue when pipeline movement, funnel leakage, conversion risk, and weekly action ownership are spread across CRM exports, team notes, and ad hoc updates. This repo models a lightweight Founder OS workflow that shows where revenue is leaking, what to fix first, and how to communicate the operating focus clearly.
@@ -151,21 +297,21 @@ The core workflow is terminal-based. The chart image in `assets/funnel_chart.png
 ```text
 .
 |-- analysis/
-|   |-- funnel_chart.py
-|   `-- revenue_leak.py
+|  |-- funnel_chart.py
+|  `-- revenue_leak.py
 |-- assets/
-|   `-- funnel_chart.png
+|  `-- funnel_chart.png
 |-- case/
-|   `-- founder_case.md
+|  `-- founder_case.md
 |-- communication/
-|   `-- investor_update.py
+|  `-- investor_update.py
 |-- context/
-|   `-- startup_overview.md
+|  `-- startup_overview.md
 |-- data/
-|   |-- generate_data.py
-|   `-- raw_data.csv
+|  |-- generate_data.py
+|  `-- raw_data.csv
 |-- execution/
-|   `-- task_prioritization.py
+|  `-- task_prioritization.py
 |-- .gitignore
 |-- LICENSE
 |-- founder_note.md

@@ -2,7 +2,7 @@
 
 ## Problem
 
-Revenue growth has slowed over the last 30 days.  
+Revenue growth has slowed over the last 30 days.
 The founder suspects issues in the funnel but lacks clarity on where exactly the drop-offs are happening.
 
 ---
@@ -75,13 +75,13 @@ The founder suspects issues in the funnel but lacks clarity on where exactly the
 
 ## Expected Outcome
 
-- Increase attendance rate → +10–15%
-- Improve conversion → +5–10%
+- Increase attendance rate → +10-15%
+- Improve conversion → +5-10%
 - Revenue uplift driven by higher throughput across funnel
 
 ---
 
 ## Final Take
 
-Improving conversion is important, but fixing attendance first creates a multiplier effect across the funnel.  
+Improving conversion is important, but fixing attendance first creates a multiplier effect across the funnel.
 Focus on upstream leverage before downstream optimization.
