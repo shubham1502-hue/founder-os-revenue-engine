@@ -22,6 +22,10 @@ This project turns a simulated early-stage funnel into a repeatable review proce
 - Provides a lightweight structure for weekly revenue diagnosis, action prioritization, and investor-style communication.
 - Supports a recurring GTM/revenue review cadence without requiring a full BI implementation.
 
+## Call-level input
+
+Founder OS Revenue Engine diagnoses funnel leakage at the weekly revenue level. [Founder-Led Sales Call OS](https://github.com/shubham1502-hue/founder-led-sales-call-os) works one layer deeper by extracting call-level objections, confusion, urgency, and deal rescue actions that explain why the funnel is leaking.
+
 ## What This Repo Includes
 
 - `data/generate_data.py`: creates a synthetic lead-to-revenue dataset.
