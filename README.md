@@ -112,6 +112,40 @@ Customize these before using the repo for a real company:
 - investor update language
 - CRM export format
 
+## Standalone or integrated
+
+Standalone:
+Use this repo by itself if you only need revenue leakage diagnosis, bottleneck visibility, and weekly GTM action priorities. Fork it, replace the sample input, run the workflow or copy the templates, and use the main output in your next founder review.
+
+Integrated:
+Use this repo with the Founder OS ecosystem if you want to connect it to adjacent operating workflows.
+
+- Use after sales call learning from [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os).
+- Use [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) to define funnel metrics before scorecards harden.
+- Feed close-won and activation issues into [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os).
+- Feed weekly GTM actions into [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent).
+
+## Lifecycle handoff
+
+Before:
+
+- [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os) for deal risks and objections.
+- [revops-infrastructure-playbook](https://github.com/shubham1502-hue/revops-infrastructure-playbook) for CRM and reporting architecture.
+- [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) for metric definitions.
+
+This repo produces:
+
+- Leakage diagnosis
+- Bottleneck view
+- Weekly GTM action list
+- Founder-ready revenue memo
+
+After:
+
+- [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) after close-won.
+- [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) for weekly leadership review.
+- [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) when GTM risks need investor narrative.
+
 ## Post-sale activation input
 
 Founder OS Revenue Engine diagnoses revenue leakage across the funnel. [Founder Customer Onboarding OS](https://github.com/shubham1502-hue/founder-customer-onboarding-os) works after close-won by showing which customers are stuck before activation, which handoffs are delayed, and which high-value accounts need founder intervention.
