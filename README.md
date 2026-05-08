@@ -123,6 +123,7 @@ Use this repo with the Founder OS ecosystem if you want to connect it to adjacen
 - Use after sales call learning from [founder-led-sales-call-os](https://github.com/shubham1502-hue/founder-led-sales-call-os).
 - Use [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) to define funnel metrics before scorecards harden.
 - Feed close-won and activation issues into [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os).
+- Use [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) after activation to explain retained revenue risk, renewal risk, churn drivers, and expansion movement.
 - Feed weekly GTM actions into [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent).
 
 ## Lifecycle handoff
@@ -143,6 +144,7 @@ This repo produces:
 After:
 
 - [founder-customer-onboarding-os](https://github.com/shubham1502-hue/founder-customer-onboarding-os) after close-won.
+- [founder-retention-expansion-os](https://github.com/shubham1502-hue/founder-retention-expansion-os) after activation for renewal risk, churn drivers, expansion opportunities, and retained revenue risk.
 - [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) for weekly leadership review.
 - [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) when GTM risks need investor narrative.
 
@@ -150,9 +152,13 @@ After:
 
 Founder OS Revenue Engine diagnoses revenue leakage across the funnel. [Founder Customer Onboarding OS](https://github.com/shubham1502-hue/founder-customer-onboarding-os) works after close-won by showing which customers are stuck before activation, which handoffs are delayed, and which high-value accounts need founder intervention.
 
+## Retention revenue input
+
+Founder OS Revenue Engine diagnoses revenue leakage. [Founder Retention Expansion OS](https://github.com/shubham1502-hue/founder-retention-expansion-os) works after activation by surfacing renewal risk, churn drivers, expansion opportunities, and retained revenue risk that can explain revenue movement beyond the new-sales funnel.
+
 ## Where this fits in the Founder OS
 
-Use this after `ai-gtm-command-center` and `founder-led-sales-call-os` start producing account and call signals. Pair it with `startup-metrics-playbook` for metric definitions and `revops-infrastructure-playbook` for CRM and reporting architecture.
+Use this after `ai-gtm-command-center` and `founder-led-sales-call-os` start producing account and call signals. Pair it with `startup-metrics-playbook` for metric definitions, `revops-infrastructure-playbook` for CRM and reporting architecture, and `founder-retention-expansion-os` when revenue movement depends on renewal, churn, expansion, or retained revenue risk.
 
 ## Why this matters
 
