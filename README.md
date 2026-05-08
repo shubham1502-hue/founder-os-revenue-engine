@@ -112,6 +112,10 @@ Customize these before using the repo for a real company:
 - investor update language
 - CRM export format
 
+## Post-sale activation input
+
+Founder OS Revenue Engine diagnoses revenue leakage across the funnel. [Founder Customer Onboarding OS](https://github.com/shubham1502-hue/founder-customer-onboarding-os) works after close-won by showing which customers are stuck before activation, which handoffs are delayed, and which high-value accounts need founder intervention.
+
 ## Where this fits in the Founder OS
 
 Use this after `ai-gtm-command-center` and `founder-led-sales-call-os` start producing account and call signals. Pair it with `startup-metrics-playbook` for metric definitions and `revops-infrastructure-playbook` for CRM and reporting architecture.
