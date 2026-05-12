@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 
 
@@ -64,6 +66,102 @@ def analyze_revenue_leak(df):
     }
 
 
+def biggest_leak_stage(metrics):
+    drop_offs = {
+        "Booking Drop": 1 - metrics["booking_rate"],
+        "Attendance Drop": 1 - metrics["attendance_rate"],
+        "Conversion Drop": 1 - metrics["conversion_rate"],
+    }
+    return max(drop_offs, key=drop_offs.get)
+
+
+def founder_action_fields(metrics):
+    stage = biggest_leak_stage(metrics)
+    if stage == "Booking Drop":
+        return {
+            "stage": stage,
+            "problem": "Users are not booking enough demos after entering the funnel.",
+            "evidence": (
+                f"Demo booking rate is {metrics['booking_rate']:.2%} "
+                "against the 60% operating assumption."
+            ),
+            "action": "Improve landing page CTA, reduce booking friction, and add faster lead follow-up.",
+            "owner": "Growth owner with founder review",
+        }
+    if stage == "Attendance Drop":
+        return {
+            "stage": stage,
+            "problem": "Booked users are not attending demos consistently.",
+            "evidence": (
+                f"Demo attendance rate is {metrics['attendance_rate']:.2%} "
+                "against the 50% operating assumption."
+            ),
+            "action": (
+                "Add WhatsApp reminders, calendar nudges, and reduce the wait "
+                "between booking and demo."
+            ),
+            "owner": "RevOps owner with sales team follow-up",
+        }
+    return {
+        "stage": stage,
+        "problem": "Demo attendees are not converting into paid customers at the expected rate.",
+        "evidence": (
+            f"Conversion rate is {metrics['conversion_rate']:.2%} "
+            "against the 20% operating assumption."
+        ),
+        "action": "Improve the sales pitch, objection handling, pricing clarity, and post-demo follow-up.",
+        "owner": "Founder or sales lead",
+    }
+
+
+def build_founder_action_memo(metrics):
+    fields = founder_action_fields(metrics)
+    expected_impact = (
+        f"Closing the current funnel leak could recover up to INR {metrics['revenue_leak']:,.0f} "
+        "against the modeled expected revenue baseline."
+    )
+
+    memo_lines = [
+        "# Founder Action Memo",
+        "",
+        "## Problem",
+        "",
+        fields["problem"],
+        "",
+        "## Evidence",
+        "",
+        fields["evidence"],
+        f"Current revenue leakage estimate: INR {metrics['revenue_leak']:,.0f}.",
+        "",
+        "## Action",
+        "",
+        fields["action"],
+        "",
+        "## Owner",
+        "",
+        fields["owner"],
+        "",
+        "## Expected impact",
+        "",
+        expected_impact,
+        "",
+    ]
+    return "\n".join(memo_lines)
+
+
+def write_founder_action_memo(metrics, output_path="outputs/founder_action_memo.md"):
+    output_dir = os.path.dirname(output_path)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+
+    with open(output_path, "w", encoding="utf-8") as handle:
+        handle.write(build_founder_action_memo(metrics))
+
+    if not os.path.isfile(output_path):
+        raise RuntimeError(f"Expected founder action memo at {output_path}")
+    return output_path
+
+
 def print_revenue_report(metrics):
     print("\n===== FUNNEL METRICS =====")
     print(f"Total Leads: {metrics['total_leads']}")
@@ -76,25 +174,17 @@ def print_revenue_report(metrics):
     print(f"Expected Revenue: INR {metrics['expected_revenue']:,.0f}")
     print(f"Revenue Leakage: INR {metrics['revenue_leak']:,.0f}")
 
-    drop_offs = {
-        "Booking Drop": 1 - metrics["booking_rate"],
-        "Attendance Drop": 1 - metrics["attendance_rate"],
-        "Conversion Drop": 1 - metrics["conversion_rate"],
-    }
-
-    biggest_leak_stage = max(drop_offs, key=drop_offs.get)
+    stage = biggest_leak_stage(metrics)
 
     print("\n===== INSIGHTS =====")
-    print(f"Biggest Leak Stage: {biggest_leak_stage}")
+    print(f"Biggest Leak Stage: {stage}")
 
-    if biggest_leak_stage == "Booking Drop":
+    if stage == "Booking Drop":
         print("Problem: Users not booking demos")
         print("Fix: Improve landing page CTA, faster lead follow-up")
-
-    elif biggest_leak_stage == "Attendance Drop":
+    elif stage == "Attendance Drop":
         print("Problem: Users not attending demos")
         print("Fix: WhatsApp reminders, calendar nudges, shorter wait time")
-
     else:
         print("Problem: Low conversion after demo")
         print("Fix: Improve sales pitch, objection handling, pricing clarity")
@@ -109,6 +199,8 @@ def main():
 
     metrics = analyze_revenue_leak(df)
     print_revenue_report(metrics)
+    memo_path = write_founder_action_memo(metrics)
+    print(f"\nFounder action memo written to {memo_path}")
 
 
 if __name__ == "__main__":
