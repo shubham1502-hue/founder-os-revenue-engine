@@ -4,6 +4,15 @@ Diagnose revenue leakage, funnel bottlenecks, and weekly GTM actions from lightw
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Non-technical starting point
+
+If you are a founder and want the no-code version first, start with the matching kit in:
+[Founder OS Adoption Kit](https://github.com/shubham1502-hue/founder-os-adoption-kit)
+
+This repo is the deeper module. The adoption kit gives you the simple template, sample input, founder prompt, and sample output.
+
+Start with the [Revenue Rescue Kit](https://github.com/shubham1502-hue/founder-os-adoption-kit/tree/main/starter-kits/revenue-rescue-kit).
+
 ## The founder problem
 
 Early revenue teams often have pipeline data, call notes, and weekly action items scattered across tools. The founder problem is deciding where revenue is leaking, which bottleneck matters now, and who owns the next action.
